@@ -1,0 +1,1813 @@
+[
+  {
+    "query_id": "q17",
+    "status": "answered",
+    "answer": "Theo mục 5.2, phần mềm duy nhất có thể truy cập trực tiếp phần cứng là hệ điều hành (OS). Bất kỳ chương trình nào khác, chẳng hạn như chương trình in ấn, đều phải giao tiếp với hệ điều hành để thực hiện thao tác phần cứng. Hệ điều hành sẽ thực hiện nhiệm vụ được yêu cầu thay mặt cho chương trình. Điều này được thiết kế để tăng cường bảo mật và độ tin cậy cho hệ thống máy tính [openstax-ics-web:p214:0].\n\nCitations: [openstax-ics-web:p214:0]",
+    "citations": [
+      "openstax-ics-web:p214:0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "software access hardware directly section 5.2",
+        "filter": {
+          "section": "5.2"
+        },
+        "results": [
+          {
+            "id": "openstax-ics-web:p214:0",
+            "text": "has more privileges in the computer system.\nThe operating system (OS), shown in Figure 5.10 is the only piece of software that can directly access the\nhardware. Any other program that needs to access the hardware, such as printing something, must talk to the\nOS, and the OS achieves the requested task on behalf of the program. The reason all computers are designed\nthis way is to increase security (only one program deals with the hardware so other programs cannot affect the\nmachine) and reliabilit",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 214,
+            "metadata": {
+              "page_id": "openstax-ics-web:p214",
+              "chapter": 5,
+              "section_title": "Computer Levels of Abstraction",
+              "printed_page": 204,
+              "section": "5.2",
+              "chunk_index": 0,
+              "chunk_chars": 500,
+              "chapter_title": "Computer Systems Organization",
+              "chars": 3323
+            },
+            "score": 0.808
+          },
+          {
+            "id": "openstax-ics-web:p210:6",
+            "text": "ow do we deal with these conflicting requirements for\nprogrammers and computers? The answer is compilers.\nA compiler is a piece of software that takes a program written in a given HLL and generates another program\nthat does the same task as the initial program but is written in a language that is much friendlier to the\ncomputer called assembly language. Assembly language is then translated into machine language code so\nthat the program can be executed (Figure 5.7).\n200 5 • Hardware Realizations ",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 210,
+            "metadata": {
+              "chapter_title": "Computer Systems Organization",
+              "section_title": "Computer Levels of Abstraction",
+              "page_id": "openstax-ics-web:p210",
+              "chapter": 5,
+              "chars": 3570,
+              "chunk_chars": 500,
+              "section": "5.2",
+              "printed_page": 200,
+              "chunk_index": 6
+            },
+            "score": 0.7726
+          },
+          {
+            "id": "openstax-ics-web:p214:6",
+            "text": "at\ntraditional computers in general operate in binary state (i.e., using 0 and 1). To use these computers, we need\nto build different types of compilers, operating systems, programming languages, and so on. Another form of\n204 5 • Hardware Realizations of Algorithms: Computer Systems Design\nAccess for free at openstax.org",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 214,
+            "metadata": {
+              "chapter": 5,
+              "printed_page": 204,
+              "chapter_title": "Computer Systems Organization",
+              "chunk_chars": 323,
+              "section": "5.2",
+              "chunk_index": 6,
+              "chars": 3323,
+              "section_title": "Computer Levels of Abstraction",
+              "page_id": "openstax-ics-web:p214"
+            },
+            "score": 0.7675
+          },
+          {
+            "id": "openstax-ics-web:p214:1",
+            "text": "y (a program cannot affect a piece of hardware, which would then affect other\nprograms). In order for the OS to do its job efficiently, it stores the data and programs on disk in an organized\nway using a file system. The file system helps organize files so that it is easier to find them when needed.\nFigure 5.10 The operating system functions as a manager that connects the hardware in the computer to the software. (attribution:\nCopyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nA",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 214,
+            "metadata": {
+              "section": "5.2",
+              "chars": 3323,
+              "section_title": "Computer Levels of Abstraction",
+              "chapter_title": "Computer Systems Organization",
+              "chunk_index": 1,
+              "printed_page": 204,
+              "chunk_chars": 500,
+              "chapter": 5,
+              "page_id": "openstax-ics-web:p214"
+            },
+            "score": 0.7527
+          },
+          {
+            "id": "openstax-ics-web:p208:6",
+            "text": "k by the layer before\nit.\n198 5 • Hardware Realizations of Algorithms: Computer Systems Design\nAccess for free at openstax.org",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 208,
+            "metadata": {
+              "printed_page": 198,
+              "page_id": "openstax-ics-web:p208",
+              "chunk_index": 6,
+              "chapter_title": "Computer Systems Organization",
+              "section": "5.2",
+              "chapter": 5,
+              "chars": 3126,
+              "chunk_chars": 126,
+              "section_title": "Computer Levels of Abstraction"
+            },
+            "score": 0.7475
+          }
+        ],
+        "context": "[openstax-ics-web:p214:0 | Introduction_To_Computer_Science_-_WEB.pdf | page 214]\nhas more privileges in the computer system.\nThe operating system (OS), shown in Figure 5.10 is the only piece of software that can directly access the\nhardware. Any other program that needs to access the hardware, such as printing something, must talk to the\nOS, and the OS achieves the requested task on behalf of the program. The reason all computers are designed\nthis way is to increase security (only one program deals with the hardware so other programs cannot affect the\nmachine) and reliabilit\n\n[openstax-ics-web:p210:6 | Introduction_To_Computer_Science_-_WEB.pdf | page 210]\now do we deal with these conflicting requirements for\nprogrammers and computers? The answer is compilers.\nA compiler is a piece of software that takes a program written in a given HLL and generates another program\nthat does the same task as the initial program but is written in a language that is much friendlier to the\ncomputer called assembly language. Assembly language is then translated into machine language code so\nthat the program can be executed (Figure 5.7).\n200 5 • Hardware Realizations ",
+        "context_ids": [
+          "openstax-ics-web:p214:0",
+          "openstax-ics-web:p210:6"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q18",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "difference between cache memory and DRAM",
+        "filter": {
+          "chapter": 5
+        },
+        "results": [
+          {
+            "id": "openstax-ics-web:p233:1",
+            "text": "cs that differ from DRAM\nand SRAM (technologies 1 and 2). The first, and most important one, is that they are persistent—they are non-\nvolatile. The second characteristic is that they are slower in speed than DRAM and SRAM but have lower costs\nand higher capacities. It is to be noted that technologies 3 and 4 do not have to exist together in a computer\nsystem; you can have a computer with either or both.\nBesides the storage that exists inside the computer system, there is a lot of storage in the",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 233,
+            "metadata": {
+              "page_id": "openstax-ics-web:p233",
+              "chars": 3146,
+              "printed_page": 223,
+              "chunk_chars": 500,
+              "chapter": 5,
+              "section": "5.5",
+              "section_title": "Memory Hierarchy",
+              "chunk_index": 1,
+              "chapter_title": "Computer Systems Organization"
+            },
+            "score": 0.8565
+          },
+          {
+            "id": "openstax-ics-web:p232:4",
+            "text": "he SRAM, and whenever we say memory, we mean the DRAM.\nSuppose the processor executes a program that accesses array A consecutively. The processor starts with A[0]\nand asks the cache memory whether it has A[0]. Initially the cache is empty, so it does not have the needed\ndata which is called a cache miss. The cache then gets the data from the memory. But instead of just getting\nA[0], it gets A[0], A[1], A[2], ..., A[x]. The number of extra elements the cache brings depends on the design of\nthe c",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 232,
+            "metadata": {
+              "chunk_chars": 500,
+              "chapter": 5,
+              "section_title": "Memory Hierarchy",
+              "printed_page": 222,
+              "chunk_index": 4,
+              "page_id": "openstax-ics-web:p232",
+              "section": "5.5",
+              "chars": 3214,
+              "chapter_title": "Computer Systems Organization"
+            },
+            "score": 0.8375
+          },
+          {
+            "id": "openstax-ics-web:p232:1",
+            "text": "puter’s memory for\nas long as the machine is powered on. This means it does not need a refresh like the DRAM and is designed\nwith a faster technology than DRAM. However, SRAMs are bigger in area; a single bit requires a large area in\nthe chip as it needs four to six transistors, which is much larger than the capacitor in DRAM. Moreover, inside\nthe chip we do not have a lot of space due to the existence of the processor itself. So, SRAM is a small, fast\nmemory inside the chip that is connected to",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 232,
+            "metadata": {
+              "section": "5.5",
+              "printed_page": 222,
+              "chars": 3214,
+              "page_id": "openstax-ics-web:p232",
+              "chapter": 5,
+              "chunk_index": 1,
+              "section_title": "Memory Hierarchy",
+              "chapter_title": "Computer Systems Organization",
+              "chunk_chars": 500
+            },
+            "score": 0.8352
+          },
+          {
+            "id": "openstax-ics-web:p232:3",
+            "text": "), but the latter is not. Your laptop has 32GB of\nRAM, which is the size of the DRAM, but you may not know how much cache your processor has. However, if\nyou know how the cache works, you can write more efficient programs as we learn when we talk about locality.\nIn Figure 5.23, SRAM is more commonly referred to as cache memory, which is the memory that allows for\nhigh-speed retrieval of data. Let us see how the cache and the DRAM memory work together. From now on,\nwhenever we say cache we mean t",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 232,
+            "metadata": {
+              "chars": 3214,
+              "section": "5.5",
+              "chapter": 5,
+              "section_title": "Memory Hierarchy",
+              "chapter_title": "Computer Systems Organization",
+              "chunk_chars": 500,
+              "page_id": "openstax-ics-web:p232",
+              "printed_page": 222,
+              "chunk_index": 3
+            },
+            "score": 0.8271
+          },
+          {
+            "id": "openstax-ics-web:p232:2",
+            "text": " the processor from one side and to the DRAM off-chip from the\nother side, as shown in Figure 5.23. The DRAM is in the range of 8–64GB, while the SRAM starts from the KB\nrange to a few MBs.\nFigure 5.23 SRAM was introduced to overcome the slow speed of DRAM. (attribution: Copyright Rice University, OpenStax, under CC\nBY NC-SA 4.0 license)\nOne important distinction between the cache memory and the DRAM is that the former is programmer-\ntransparent (i.e., its use cannot be managed by the programmer",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 232,
+            "metadata": {
+              "chunk_index": 2,
+              "chapter": 5,
+              "chars": 3214,
+              "section": "5.5",
+              "chunk_chars": 500,
+              "chapter_title": "Computer Systems Organization",
+              "page_id": "openstax-ics-web:p232",
+              "printed_page": 222,
+              "section_title": "Memory Hierarchy"
+            },
+            "score": 0.8261
+          }
+        ],
+        "context": "[openstax-ics-web:p233:1 | Introduction_To_Computer_Science_-_WEB.pdf | page 233]\ncs that differ from DRAM\nand SRAM (technologies 1 and 2). The first, and most important one, is that they are persistent—they are non-\nvolatile. The second characteristic is that they are slower in speed than DRAM and SRAM but have lower costs\nand higher capacities. It is to be noted that technologies 3 and 4 do not have to exist together in a computer\nsystem; you can have a computer with either or both.\nBesides the storage that exists inside the computer system, there is a lot of storage in the\n\n[openstax-ics-web:p232:4 | Introduction_To_Computer_Science_-_WEB.pdf | page 232]\nhe SRAM, and whenever we say memory, we mean the DRAM.\nSuppose the processor executes a program that accesses array A consecutively. The processor starts with A[0]\nand asks the cache memory whether it has A[0]. Initially the cache is empty, so it does not have the needed\ndata which is called a cache miss. The cache then gets the data from the memory. But instead of just getting\nA[0], it gets A[0], A[1], A[2], ..., A[x]. The number of extra elements the cache brings depends on the design of\nthe c",
+        "context_ids": [
+          "openstax-ics-web:p233:1",
+          "openstax-ics-web:p232:4"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "cache memory DRAM programming difference",
+        "filter": {
+          "chapter": 5
+        },
+        "results": [
+          {
+            "id": "openstax-ics-web:p232:4",
+            "text": "he SRAM, and whenever we say memory, we mean the DRAM.\nSuppose the processor executes a program that accesses array A consecutively. The processor starts with A[0]\nand asks the cache memory whether it has A[0]. Initially the cache is empty, so it does not have the needed\ndata which is called a cache miss. The cache then gets the data from the memory. But instead of just getting\nA[0], it gets A[0], A[1], A[2], ..., A[x]. The number of extra elements the cache brings depends on the design of\nthe c",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 232,
+            "metadata": {
+              "chapter": 5,
+              "page_id": "openstax-ics-web:p232",
+              "section": "5.5",
+              "section_title": "Memory Hierarchy",
+              "chunk_index": 4,
+              "chars": 3214,
+              "printed_page": 222,
+              "chapter_title": "Computer Systems Organization",
+              "chunk_chars": 500
+            },
+            "score": 0.8314
+          },
+          {
+            "id": "openstax-ics-web:p233:1",
+            "text": "cs that differ from DRAM\nand SRAM (technologies 1 and 2). The first, and most important one, is that they are persistent—they are non-\nvolatile. The second characteristic is that they are slower in speed than DRAM and SRAM but have lower costs\nand higher capacities. It is to be noted that technologies 3 and 4 do not have to exist together in a computer\nsystem; you can have a computer with either or both.\nBesides the storage that exists inside the computer system, there is a lot of storage in the",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 233,
+            "metadata": {
+              "section_title": "Memory Hierarchy",
+              "chars": 3146,
+              "section": "5.5",
+              "chunk_index": 1,
+              "chunk_chars": 500,
+              "printed_page": 223,
+              "chapter": 5,
+              "page_id": "openstax-ics-web:p233",
+              "chapter_title": "Computer Systems Organization"
+            },
+            "score": 0.82
+          },
+          {
+            "id": "openstax-ics-web:p232:3",
+            "text": "), but the latter is not. Your laptop has 32GB of\nRAM, which is the size of the DRAM, but you may not know how much cache your processor has. However, if\nyou know how the cache works, you can write more efficient programs as we learn when we talk about locality.\nIn Figure 5.23, SRAM is more commonly referred to as cache memory, which is the memory that allows for\nhigh-speed retrieval of data. Let us see how the cache and the DRAM memory work together. From now on,\nwhenever we say cache we mean t",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 232,
+            "metadata": {
+              "printed_page": 222,
+              "chapter_title": "Computer Systems Organization",
+              "chapter": 5,
+              "page_id": "openstax-ics-web:p232",
+              "section_title": "Memory Hierarchy",
+              "chars": 3214,
+              "chunk_index": 3,
+              "chunk_chars": 500,
+              "section": "5.5"
+            },
+            "score": 0.8058
+          },
+          {
+            "id": "openstax-ics-web:p233:0",
+            "text": "Both the SRAM and DRAM, or cache and memory, are volatile—whenever there is a power perturbation or the\nmachine runs out of battery, everything in the cache and the memory is gone. And we cannot build a full-\nfledged computer with volatile memory only; we need persistent storage too.\nStorage Technologies\nStorage exists in computer systems to ensure that data continues to exist even after the computer is powered\noff. Storage, presented as technologies 3 and 4 in Figure 5.20, has few characteristi",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 233,
+            "metadata": {
+              "printed_page": 223,
+              "chunk_chars": 500,
+              "section": "5.5",
+              "chunk_index": 0,
+              "chapter": 5,
+              "section_title": "Memory Hierarchy",
+              "chars": 3146,
+              "chapter_title": "Computer Systems Organization",
+              "page_id": "openstax-ics-web:p233"
+            },
+            "score": 0.817
+          },
+          {
+            "id": "openstax-ics-web:p232:1",
+            "text": "puter’s memory for\nas long as the machine is powered on. This means it does not need a refresh like the DRAM and is designed\nwith a faster technology than DRAM. However, SRAMs are bigger in area; a single bit requires a large area in\nthe chip as it needs four to six transistors, which is much larger than the capacitor in DRAM. Moreover, inside\nthe chip we do not have a lot of space due to the existence of the processor itself. So, SRAM is a small, fast\nmemory inside the chip that is connected to",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 232,
+            "metadata": {
+              "printed_page": 222,
+              "section": "5.5",
+              "section_title": "Memory Hierarchy",
+              "chunk_chars": 500,
+              "chapter": 5,
+              "chunk_index": 1,
+              "page_id": "openstax-ics-web:p232",
+              "chapter_title": "Computer Systems Organization",
+              "chars": 3214
+            },
+            "score": 0.8006
+          }
+        ],
+        "context": "[openstax-ics-web:p233:0 | Introduction_To_Computer_Science_-_WEB.pdf | page 233]\nBoth the SRAM and DRAM, or cache and memory, are volatile—whenever there is a power perturbation or the\nmachine runs out of battery, everything in the cache and the memory is gone. And we cannot build a full-\nfledged computer with volatile memory only; we need persistent storage too.\nStorage Technologies\nStorage exists in computer systems to ensure that data continues to exist even after the computer is powered\noff. Storage, presented as technologies 3 and 4 in Figure 5.20, has few characteristi\n\n[openstax-ics-web:p233:1 | Introduction_To_Computer_Science_-_WEB.pdf | page 233]\ncs that differ from DRAM\nand SRAM (technologies 1 and 2). The first, and most important one, is that they are persistent—they are non-\nvolatile. The second characteristic is that they are slower in speed than DRAM and SRAM but have lower costs\nand higher capacities. It is to be noted that technologies 3 and 4 do not have to exist together in a computer\nsystem; you can have a computer with either or both.\nBesides the storage that exists inside the computer system, there is a lot of storage in the",
+        "context_ids": [
+          "openstax-ics-web:p233:0",
+          "openstax-ics-web:p233:1"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "cache memory DRAM programming implications",
+        "filter": {
+          "chapter": 5
+        },
+        "results": [
+          {
+            "id": "openstax-ics-web:p232:4",
+            "text": "he SRAM, and whenever we say memory, we mean the DRAM.\nSuppose the processor executes a program that accesses array A consecutively. The processor starts with A[0]\nand asks the cache memory whether it has A[0]. Initially the cache is empty, so it does not have the needed\ndata which is called a cache miss. The cache then gets the data from the memory. But instead of just getting\nA[0], it gets A[0], A[1], A[2], ..., A[x]. The number of extra elements the cache brings depends on the design of\nthe c",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 232,
+            "metadata": {
+              "chunk_index": 4,
+              "section_title": "Memory Hierarchy",
+              "chapter": 5,
+              "section": "5.5",
+              "chapter_title": "Computer Systems Organization",
+              "printed_page": 222,
+              "chunk_chars": 500,
+              "page_id": "openstax-ics-web:p232",
+              "chars": 3214
+            },
+            "score": 0.832
+          },
+          {
+            "id": "openstax-ics-web:p233:0",
+            "text": "Both the SRAM and DRAM, or cache and memory, are volatile—whenever there is a power perturbation or the\nmachine runs out of battery, everything in the cache and the memory is gone. And we cannot build a full-\nfledged computer with volatile memory only; we need persistent storage too.\nStorage Technologies\nStorage exists in computer systems to ensure that data continues to exist even after the computer is powered\noff. Storage, presented as technologies 3 and 4 in Figure 5.20, has few characteristi",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 233,
+            "metadata": {
+              "chapter": 5,
+              "section": "5.5",
+              "page_id": "openstax-ics-web:p233",
+              "chars": 3146,
+              "chunk_index": 0,
+              "section_title": "Memory Hierarchy",
+              "chapter_title": "Computer Systems Organization",
+              "printed_page": 223,
+              "chunk_chars": 500
+            },
+            "score": 0.817
+          },
+          {
+            "id": "openstax-ics-web:p233:1",
+            "text": "cs that differ from DRAM\nand SRAM (technologies 1 and 2). The first, and most important one, is that they are persistent—they are non-\nvolatile. The second characteristic is that they are slower in speed than DRAM and SRAM but have lower costs\nand higher capacities. It is to be noted that technologies 3 and 4 do not have to exist together in a computer\nsystem; you can have a computer with either or both.\nBesides the storage that exists inside the computer system, there is a lot of storage in the",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 233,
+            "metadata": {
+              "chars": 3146,
+              "chapter": 5,
+              "chapter_title": "Computer Systems Organization",
+              "section": "5.5",
+              "printed_page": 223,
+              "page_id": "openstax-ics-web:p233",
+              "chunk_index": 1,
+              "chunk_chars": 500,
+              "section_title": "Memory Hierarchy"
+            },
+            "score": 0.804
+          },
+          {
+            "id": "openstax-ics-web:p232:3",
+            "text": "), but the latter is not. Your laptop has 32GB of\nRAM, which is the size of the DRAM, but you may not know how much cache your processor has. However, if\nyou know how the cache works, you can write more efficient programs as we learn when we talk about locality.\nIn Figure 5.23, SRAM is more commonly referred to as cache memory, which is the memory that allows for\nhigh-speed retrieval of data. Let us see how the cache and the DRAM memory work together. From now on,\nwhenever we say cache we mean t",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 232,
+            "metadata": {
+              "chars": 3214,
+              "chapter_title": "Computer Systems Organization",
+              "chapter": 5,
+              "printed_page": 222,
+              "chunk_index": 3,
+              "chunk_chars": 500,
+              "page_id": "openstax-ics-web:p232",
+              "section_title": "Memory Hierarchy",
+              "section": "5.5"
+            },
+            "score": 0.8027
+          },
+          {
+            "id": "openstax-ics-web:p232:1",
+            "text": "puter’s memory for\nas long as the machine is powered on. This means it does not need a refresh like the DRAM and is designed\nwith a faster technology than DRAM. However, SRAMs are bigger in area; a single bit requires a large area in\nthe chip as it needs four to six transistors, which is much larger than the capacitor in DRAM. Moreover, inside\nthe chip we do not have a lot of space due to the existence of the processor itself. So, SRAM is a small, fast\nmemory inside the chip that is connected to",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 232,
+            "metadata": {
+              "chunk_chars": 500,
+              "chars": 3214,
+              "chapter_title": "Computer Systems Organization",
+              "section": "5.5",
+              "chunk_index": 1,
+              "chapter": 5,
+              "printed_page": 222,
+              "section_title": "Memory Hierarchy",
+              "page_id": "openstax-ics-web:p232"
+            },
+            "score": 0.7985
+          }
+        ],
+        "context": "[openstax-ics-web:p233:1 | Introduction_To_Computer_Science_-_WEB.pdf | page 233]\ncs that differ from DRAM\nand SRAM (technologies 1 and 2). The first, and most important one, is that they are persistent—they are non-\nvolatile. The second characteristic is that they are slower in speed than DRAM and SRAM but have lower costs\nand higher capacities. It is to be noted that technologies 3 and 4 do not have to exist together in a computer\nsystem; you can have a computer with either or both.\nBesides the storage that exists inside the computer system, there is a lot of storage in the\n\n[openstax-ics-web:p232:4 | Introduction_To_Computer_Science_-_WEB.pdf | page 232]\nhe SRAM, and whenever we say memory, we mean the DRAM.\nSuppose the processor executes a program that accesses array A consecutively. The processor starts with A[0]\nand asks the cache memory whether it has A[0]. Initially the cache is empty, so it does not have the needed\ndata which is called a cache miss. The cache then gets the data from the memory. But instead of just getting\nA[0], it gets A[0], A[1], A[2], ..., A[x]. The number of extra elements the cache brings depends on the design of\nthe c",
+        "context_ids": [
+          "openstax-ics-web:p233:1",
+          "openstax-ics-web:p232:4"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "cache memory DRAM differences programming",
+        "filter": {
+          "chapter": 5
+        },
+        "results": [
+          {
+            "id": "openstax-ics-web:p232:4",
+            "text": "he SRAM, and whenever we say memory, we mean the DRAM.\nSuppose the processor executes a program that accesses array A consecutively. The processor starts with A[0]\nand asks the cache memory whether it has A[0]. Initially the cache is empty, so it does not have the needed\ndata which is called a cache miss. The cache then gets the data from the memory. But instead of just getting\nA[0], it gets A[0], A[1], A[2], ..., A[x]. The number of extra elements the cache brings depends on the design of\nthe c",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 232,
+            "metadata": {
+              "chunk_index": 4,
+              "chunk_chars": 500,
+              "chapter_title": "Computer Systems Organization",
+              "printed_page": 222,
+              "section": "5.5",
+              "chapter": 5,
+              "chars": 3214,
+              "section_title": "Memory Hierarchy",
+              "page_id": "openstax-ics-web:p232"
+            },
+            "score": 0.8267
+          },
+          {
+            "id": "openstax-ics-web:p233:1",
+            "text": "cs that differ from DRAM\nand SRAM (technologies 1 and 2). The first, and most important one, is that they are persistent—they are non-\nvolatile. The second characteristic is that they are slower in speed than DRAM and SRAM but have lower costs\nand higher capacities. It is to be noted that technologies 3 and 4 do not have to exist together in a computer\nsystem; you can have a computer with either or both.\nBesides the storage that exists inside the computer system, there is a lot of storage in the",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 233,
+            "metadata": {
+              "section": "5.5",
+              "chunk_index": 1,
+              "chunk_chars": 500,
+              "chapter_title": "Computer Systems Organization",
+              "chars": 3146,
+              "chapter": 5,
+              "section_title": "Memory Hierarchy",
+              "page_id": "openstax-ics-web:p233",
+              "printed_page": 223
+            },
+            "score": 0.8215
+          },
+          {
+            "id": "openstax-ics-web:p232:3",
+            "text": "), but the latter is not. Your laptop has 32GB of\nRAM, which is the size of the DRAM, but you may not know how much cache your processor has. However, if\nyou know how the cache works, you can write more efficient programs as we learn when we talk about locality.\nIn Figure 5.23, SRAM is more commonly referred to as cache memory, which is the memory that allows for\nhigh-speed retrieval of data. Let us see how the cache and the DRAM memory work together. From now on,\nwhenever we say cache we mean t",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 232,
+            "metadata": {
+              "printed_page": 222,
+              "page_id": "openstax-ics-web:p232",
+              "chunk_chars": 500,
+              "chars": 3214,
+              "chapter": 5,
+              "section": "5.5",
+              "chunk_index": 3,
+              "chapter_title": "Computer Systems Organization",
+              "section_title": "Memory Hierarchy"
+            },
+            "score": 0.8086
+          },
+          {
+            "id": "openstax-ics-web:p233:0",
+            "text": "Both the SRAM and DRAM, or cache and memory, are volatile—whenever there is a power perturbation or the\nmachine runs out of battery, everything in the cache and the memory is gone. And we cannot build a full-\nfledged computer with volatile memory only; we need persistent storage too.\nStorage Technologies\nStorage exists in computer systems to ensure that data continues to exist even after the computer is powered\noff. Storage, presented as technologies 3 and 4 in Figure 5.20, has few characteristi",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 233,
+            "metadata": {
+              "section": "5.5",
+              "chapter_title": "Computer Systems Organization",
+              "chapter": 5,
+              "page_id": "openstax-ics-web:p233",
+              "chunk_index": 0,
+              "chunk_chars": 500,
+              "chars": 3146,
+              "section_title": "Memory Hierarchy",
+              "printed_page": 223
+            },
+            "score": 0.8061
+          },
+          {
+            "id": "openstax-ics-web:p232:2",
+            "text": " the processor from one side and to the DRAM off-chip from the\nother side, as shown in Figure 5.23. The DRAM is in the range of 8–64GB, while the SRAM starts from the KB\nrange to a few MBs.\nFigure 5.23 SRAM was introduced to overcome the slow speed of DRAM. (attribution: Copyright Rice University, OpenStax, under CC\nBY NC-SA 4.0 license)\nOne important distinction between the cache memory and the DRAM is that the former is programmer-\ntransparent (i.e., its use cannot be managed by the programmer",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 232,
+            "metadata": {
+              "page_id": "openstax-ics-web:p232",
+              "section": "5.5",
+              "printed_page": 222,
+              "section_title": "Memory Hierarchy",
+              "chunk_index": 2,
+              "chapter_title": "Computer Systems Organization",
+              "chapter": 5,
+              "chars": 3214,
+              "chunk_chars": 500
+            },
+            "score": 0.7956
+          }
+        ],
+        "context": "[openstax-ics-web:p233:1 | Introduction_To_Computer_Science_-_WEB.pdf | page 233]\ncs that differ from DRAM\nand SRAM (technologies 1 and 2). The first, and most important one, is that they are persistent—they are non-\nvolatile. The second characteristic is that they are slower in speed than DRAM and SRAM but have lower costs\nand higher capacities. It is to be noted that technologies 3 and 4 do not have to exist together in a computer\nsystem; you can have a computer with either or both.\nBesides the storage that exists inside the computer system, there is a lot of storage in the\n\n[openstax-ics-web:p232:4 | Introduction_To_Computer_Science_-_WEB.pdf | page 232]\nhe SRAM, and whenever we say memory, we mean the DRAM.\nSuppose the processor executes a program that accesses array A consecutively. The processor starts with A[0]\nand asks the cache memory whether it has A[0]. Initially the cache is empty, so it does not have the needed\ndata which is called a cache miss. The cache then gets the data from the memory. But instead of just getting\nA[0], it gets A[0], A[1], A[2], ..., A[x]. The number of extra elements the cache brings depends on the design of\nthe c",
+        "context_ids": [
+          "openstax-ics-web:p233:1",
+          "openstax-ics-web:p232:4"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ]
+  },
+  {
+    "query_id": "q19",
+    "status": "answered",
+    "answer": "Nếu một process không hoàn thành công việc trước khi hết time slice, CPU sẽ xử lý nó bằng cách tạm dừng process đó và chuyển sang process khác. Cụ thể, nếu time slice kết thúc và process chưa hoàn thành, nó sẽ bị tạm dừng và có thể được đưa trở lại hàng đợi để chờ được cấp phát CPU trong lần time slice tiếp theo. Điều này cho phép hệ thống duy trì khả năng đa nhiệm mà không làm gián đoạn các process khác.\n\nCitations: [openstax-ics-web:p278:1]",
+    "citations": [
+      "openstax-ics-web:p278:1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "process time slice CPU handling",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-ics-web:p271:5",
+            "text": "multiple processes at\nthe same time using time slicing. A time slice is a short time frame that gets assigned to a process for CPU\nexecution. It corresponds to the time frame during which a process is allotted to run in preemptive\nmultitasking CPUs. In that case, a scheduler runs each process every single time slice. The preemptive\nmultitasking approach was not sufficient to improve the OS performance, so twenty years later, OSs still\nsupport multitasking using multiple threads. Figure 6.19 illu",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 271,
+            "metadata": {
+              "chunk_index": 5,
+              "section_title": "Processes and Concurrency",
+              "page_id": "openstax-ics-web:p271",
+              "chunk_chars": 500,
+              "section": "6.3",
+              "chapter_title": "Operating Systems",
+              "chapter": 6,
+              "chars": 3079,
+              "printed_page": 261
+            },
+            "score": 0.821
+          },
+          {
+            "id": "openstax-ics-web:p278:1",
+            "text": "he kernel mode to perform an action. The system call interface prevents these processes from overlapping\nor colliding. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nTime slicing provides a time frame for each process to run in a preemptive multitasking CPU such that each\nprocess runs every single time slice. If the process finishes the job before the time slice, it releases the CPU\nand does not need to be swapped out. If the time slice ends and the process did",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 278,
+            "metadata": {
+              "chapter": 6,
+              "printed_page": 268,
+              "section": "6.4",
+              "chunk_index": 1,
+              "chapter_title": "Operating Systems",
+              "section_title": "Memory Management",
+              "chunk_chars": 500,
+              "chars": 2816,
+              "page_id": "openstax-ics-web:p278"
+            },
+            "score": 0.8165
+          },
+          {
+            "id": "openstax-ics-web:p278:2",
+            "text": " not finish the job, the CPU\nshifts it out to the end of the processes queue. For example, assume we have three processes P1 with\nexecution time 3 ms, P2 with execution time 4 ms, and P3 with execution time 2 ms, and a time slice of 2 ms.\nFigure 6.26 illustrates how the CPU manages the processing using time slice and indicates in which time slice\neach process completes execution.\nFigure 6.26 The three processes P1, P2, and P3 (blue) will work as scheduled based on the time slice. The processes a",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 278,
+            "metadata": {
+              "printed_page": 268,
+              "page_id": "openstax-ics-web:p278",
+              "chunk_index": 2,
+              "section": "6.4",
+              "chunk_chars": 500,
+              "chars": 2816,
+              "chapter": 6,
+              "section_title": "Memory Management",
+              "chapter_title": "Operating Systems"
+            },
+            "score": 0.7945
+          },
+          {
+            "id": "openstax-ics-web:p238:0",
+            "text": "If we take a snapshot of the pipeline during the execution of the program, we find different pipeline phases\nworking on different instructions. We call this type of parallelism temporal parallelism. The benefit is that this\nparallelism—or better performance—is done with no involvement from the programmer. The hardware is\ndoing it for you.\nWith more and more transistors available, designers move to executing several instructions at the same time,\nwhich means that several execution units are neede",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 238,
+            "metadata": {
+              "section_title": "Processor Architectures",
+              "chars": 3822,
+              "chunk_index": 0,
+              "section": "5.6",
+              "chapter": 5,
+              "chunk_chars": 500,
+              "page_id": "openstax-ics-web:p238",
+              "printed_page": 228,
+              "chapter_title": "Computer Systems Organization"
+            },
+            "score": 0.7909
+          },
+          {
+            "id": "openstax-ics-web:p271:1",
+            "text": "programs, and threads enable programs to\nperform multiple things at once. A process is an instance of a program that is being executed by an OS. Each\nprocess has its own memory space and resources. The OS creates a new process for every executed program\nand allocates the required resources for the process. For example, it allocates a specific size of memory and\nCPU time. The process may have one or more threads, each thread has its own context, but all of the threads\nwithin a process share the s",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 271,
+            "metadata": {
+              "chars": 3079,
+              "page_id": "openstax-ics-web:p271",
+              "chapter_title": "Operating Systems",
+              "chapter": 6,
+              "chunk_chars": 500,
+              "chunk_index": 1,
+              "section": "6.3",
+              "section_title": "Processes and Concurrency",
+              "printed_page": 261
+            },
+            "score": 0.787
+          }
+        ],
+        "context": "[openstax-ics-web:p271:5 | Introduction_To_Computer_Science_-_WEB.pdf | page 271]\nmultiple processes at\nthe same time using time slicing. A time slice is a short time frame that gets assigned to a process for CPU\nexecution. It corresponds to the time frame during which a process is allotted to run in preemptive\nmultitasking CPUs. In that case, a scheduler runs each process every single time slice. The preemptive\nmultitasking approach was not sufficient to improve the OS performance, so twenty years later, OSs still\nsupport multitasking using multiple threads. Figure 6.19 illu\n\n[openstax-ics-web:p278:1 | Introduction_To_Computer_Science_-_WEB.pdf | page 278]\nhe kernel mode to perform an action. The system call interface prevents these processes from overlapping\nor colliding. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nTime slicing provides a time frame for each process to run in a preemptive multitasking CPU such that each\nprocess runs every single time slice. If the process finishes the job before the time slice, it releases the CPU\nand does not need to be swapped out. If the time slice ends and the process did",
+        "context_ids": [
+          "openstax-ics-web:p271:5",
+          "openstax-ics-web:p278:1"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q20",
+    "status": "answered",
+    "answer": "Giai đoạn trong pipeline viết kết quả phép tính trở lại đúng chỗ chỉ định bởi lệnh được gọi là \"commit\". Giai đoạn này là một phần trong quy trình pipelining, nơi mà mỗi giai đoạn thực hiện công việc cần thiết cho giai đoạn tiếp theo. [237] \n\nCitations:\n- [openstax-ics-web:p237:2]\n- [openstax-ics-web:p238:0]",
+    "citations": [
+      "openstax-ics-web:p237:2",
+      "openstax-ics-web:p238:0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "pipeline write results back",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-ics-web:p237:2",
+            "text": "f the operation back to a destination specified by the instruction, which is\ncalled the commit. Given this description, why not take the bulky piece of hardware in Figure 5.26(a) and divide\nit into these pieces: fetch, decode, issue, execute, and commit? Each piece does the work needed by the\nfollowing piece in a technique called pipelining, with each piece called a phase (Figure 5.26(b)). What do we\ngain from this?\nFirst, each phase is now much less complicated, less power hungry, and faster. S",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 237,
+            "metadata": {
+              "chapter": 5,
+              "page_id": "openstax-ics-web:p237",
+              "chars": 1903,
+              "chapter_title": "Computer Systems Organization",
+              "chunk_index": 2,
+              "section": "5.6",
+              "printed_page": 227,
+              "section_title": "Processor Architectures",
+              "chunk_chars": 500
+            },
+            "score": 0.7489
+          },
+          {
+            "id": "openstax-ics-web:p238:0",
+            "text": "If we take a snapshot of the pipeline during the execution of the program, we find different pipeline phases\nworking on different instructions. We call this type of parallelism temporal parallelism. The benefit is that this\nparallelism—or better performance—is done with no involvement from the programmer. The hardware is\ndoing it for you.\nWith more and more transistors available, designers move to executing several instructions at the same time,\nwhich means that several execution units are neede",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 238,
+            "metadata": {
+              "page_id": "openstax-ics-web:p238",
+              "chars": 3822,
+              "section_title": "Processor Architectures",
+              "chapter": 5,
+              "chunk_index": 0,
+              "chapter_title": "Computer Systems Organization",
+              "section": "5.6",
+              "chunk_chars": 500,
+              "printed_page": 228
+            },
+            "score": 0.717
+          },
+          {
+            "id": "openstax-ics-web:p226:7",
+            "text": "for free at openstax.org",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 226,
+            "metadata": {
+              "chapter_title": "Computer Systems Organization",
+              "page_id": "openstax-ics-web:p226",
+              "printed_page": 216,
+              "chapter": 5,
+              "chunk_index": 7,
+              "chunk_chars": 24,
+              "chars": 3524,
+              "section_title": "Machine-Level Program Representation",
+              "section": "5.4"
+            },
+            "score": 0.7009
+          },
+          {
+            "id": "openstax-ics-web:p262:5",
+            "text": "r free at openstax.org",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 262,
+            "metadata": {
+              "section": "6.2",
+              "chars": 2522,
+              "chunk_index": 5,
+              "page_id": "openstax-ics-web:p262",
+              "chunk_chars": 22,
+              "chapter_title": "Operating Systems",
+              "section_title": "Fundamental OS Concepts",
+              "printed_page": 252,
+              "chapter": 6
+            },
+            "score": 0.7001
+          },
+          {
+            "id": "openstax-ics-web:p205:0",
+            "text": "programs to function. For example, the media player is a program, and the songs that you listen to using the\nmedia player are data. So, the hardware executes programs that are fed with data. Computers come in\ndifferent shapes, from the small ones in your smartwatch, for example, to big supercomputers. Different\ncomputers may have different components besides the components that exist in all computer shapes. Bigger\ncomputers, datacenters, and supercomputers need extra components for getting data ",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 205,
+            "metadata": {
+              "chapter_title": "Computer Systems Organization",
+              "chunk_chars": 500,
+              "page_id": "openstax-ics-web:p205",
+              "printed_page": 195,
+              "chapter": 5,
+              "chars": 4086,
+              "chunk_index": 0,
+              "section": "5.1",
+              "section_title": "Computer Systems Organization"
+            },
+            "score": 0.692
+          }
+        ],
+        "context": "[openstax-ics-web:p237:2 | Introduction_To_Computer_Science_-_WEB.pdf | page 237]\nf the operation back to a destination specified by the instruction, which is\ncalled the commit. Given this description, why not take the bulky piece of hardware in Figure 5.26(a) and divide\nit into these pieces: fetch, decode, issue, execute, and commit? Each piece does the work needed by the\nfollowing piece in a technique called pipelining, with each piece called a phase (Figure 5.26(b)). What do we\ngain from this?\nFirst, each phase is now much less complicated, less power hungry, and faster. S\n\n[openstax-ics-web:p238:0 | Introduction_To_Computer_Science_-_WEB.pdf | page 238]\nIf we take a snapshot of the pipeline during the execution of the program, we find different pipeline phases\nworking on different instructions. We call this type of parallelism temporal parallelism. The benefit is that this\nparallelism—or better performance—is done with no involvement from the programmer. The hardware is\ndoing it for you.\nWith more and more transistors available, designers move to executing several instructions at the same time,\nwhich means that several execution units are neede",
+        "context_ids": [
+          "openstax-ics-web:p237:2",
+          "openstax-ics-web:p238:0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q21",
+    "status": "answered",
+    "answer": "Thành phần của hệ điều hành (OS) chịu trách nhiệm áp dụng quy tắc truy cập, bảo vệ xác thực và phân quyền để đảm bảo an toàn là cơ chế thực thi truy cập. Cơ chế này có quyền lực hoàn toàn và cần phải đơn giản trong lập trình để đảm bảo hiệu quả và an toàn cao. [chunk-id: openstax-ics-web:p291:0]\n\nCitations: [openstax-ics-web:p291:0]",
+    "citations": [
+      "openstax-ics-web:p291:0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "OS access control authentication authorization security",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-ics-web:p291:0",
+            "text": "systems in Windows. The utilization involves sharing a namespace at a high level of visibility by making it\npublic, while defining another namespace as private—akin to the encapsulation of objects in object-oriented\nprogramming.\nOne component of an OS must be in charge of enforcing access rules and safeguarding authentication and\nauthorization to provide a high level of security. The system’s access enforcement mechanism has complete\nauthority; therefore, it must be simple in programming and sma",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 291,
+            "metadata": {
+              "section_title": "Reliability and Security",
+              "page_id": "openstax-ics-web:p291",
+              "chapter": 6,
+              "printed_page": 281,
+              "chars": 3667,
+              "chunk_chars": 500,
+              "chapter_title": "Operating Systems",
+              "section": "6.6",
+              "chunk_index": 0
+            },
+            "score": 0.801
+          },
+          {
+            "id": "openstax-ics-web:p252:5",
+            "text": "er: Operating Systems\nAccess for free at openstax.org",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 252,
+            "metadata": {
+              "chunk_chars": 53,
+              "section": "6.1",
+              "chapter_title": "Operating Systems",
+              "printed_page": 242,
+              "chars": 2553,
+              "section_title": "What Is an Operating System?",
+              "chunk_index": 5,
+              "chapter": 6,
+              "page_id": "openstax-ics-web:p252"
+            },
+            "score": 0.7825
+          },
+          {
+            "id": "openstax-ics-web:p276:8",
+            "text": "tructure Abstraction Layer: Operating Systems\nAccess for free at openstax.org",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 276,
+            "metadata": {
+              "chunk_chars": 77,
+              "chapter": 6,
+              "page_id": "openstax-ics-web:p276",
+              "section_title": "Processes and Concurrency",
+              "printed_page": 266,
+              "chunk_index": 8,
+              "section": "6.3",
+              "chapter_title": "Operating Systems",
+              "chars": 4077
+            },
+            "score": 0.7809
+          },
+          {
+            "id": "openstax-ics-web:p286:6",
+            "text": "ction Layer: Operating Systems\nAccess for free at openstax.org",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 286,
+            "metadata": {
+              "printed_page": 276,
+              "chapter": 6,
+              "page_id": "openstax-ics-web:p286",
+              "chunk_index": 6,
+              "section_title": "File Systems",
+              "chars": 3062,
+              "section": "6.5",
+              "chunk_chars": 62,
+              "chapter_title": "Operating Systems"
+            },
+            "score": 0.7787
+          },
+          {
+            "id": "openstax-ics-web:p251:6",
+            "text": "oss users?\nNaming How are resources named, and what is the scope?\nProtection How is one user or process protected from another?\nTable 6.1 Operating System Design Considerations\n6.1 • What Is an Operating System? 241",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 251,
+            "metadata": {
+              "chunk_index": 6,
+              "chunk_chars": 215,
+              "printed_page": 241,
+              "section_title": "What Is an Operating System?",
+              "chapter": 6,
+              "page_id": "openstax-ics-web:p251",
+              "section": "6.1",
+              "chars": 3215,
+              "chapter_title": "Operating Systems"
+            },
+            "score": 0.7746
+          }
+        ],
+        "context": "[openstax-ics-web:p291:0 | Introduction_To_Computer_Science_-_WEB.pdf | page 291]\nsystems in Windows. The utilization involves sharing a namespace at a high level of visibility by making it\npublic, while defining another namespace as private—akin to the encapsulation of objects in object-oriented\nprogramming.\nOne component of an OS must be in charge of enforcing access rules and safeguarding authentication and\nauthorization to provide a high level of security. The system’s access enforcement mechanism has complete\nauthority; therefore, it must be simple in programming and sma\n\n[openstax-ics-web:p252:5 | Introduction_To_Computer_Science_-_WEB.pdf | page 252]\ner: Operating Systems\nAccess for free at openstax.org\n\n[openstax-ics-web:p276:8 | Introduction_To_Computer_Science_-_WEB.pdf | page 276]\ntructure Abstraction Layer: Operating Systems\nAccess for free at openstax.org\n\n[openstax-ics-web:p286:6 | Introduction_To_Computer_Science_-_WEB.pdf | page 286]\nction Layer: Operating Systems\nAccess for free at openstax.org",
+        "context_ids": [
+          "openstax-ics-web:p291:0",
+          "openstax-ics-web:p252:5",
+          "openstax-ics-web:p276:8",
+          "openstax-ics-web:p286:6"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "na3",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "blockchain data security",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-ics-web:p249:2",
+            "text": "f protection that supports all of the operating systems the company’s users use, including iOS, Windows,\nLinux, macOS, and Android. A data scientist working for the company proposes two solutions. The first\nsolution involves integrating an authorization method called two-factor authentication, which you’ll learn more\nabout later in the chapter. This method adds another level of security by asking users for their cell phone\nnumber so that it can send a one-time code to verify their identity every",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 249,
+            "metadata": {
+              "page_id": "openstax-ics-web:p249",
+              "section": "6.0",
+              "printed_page": 239,
+              "chunk_index": 2,
+              "section_title": "Introduction",
+              "chars": 2335,
+              "chapter": 6,
+              "chunk_chars": 500,
+              "chapter_title": "Operating Systems"
+            },
+            "score": 0.7659
+          },
+          {
+            "id": "openstax-ics-web:p276:5",
+            "text": "threads or processes\nis crucial for maintaining data integrity and preventing race conditions. One common scenario is the\nproducer-consumer problem, where one or more threads (producers) generate data, and others\n(consumers) consume it. To avoid conflicts, synchronization mechanisms like locks and condition variables\nare employed. Locks help ensure that only one thread accesses a critical section of code at a time. In the\ncontext of the producer-consumer problem, locks can be utilized to safegua",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 276,
+            "metadata": {
+              "chapter_title": "Operating Systems",
+              "printed_page": 266,
+              "page_id": "openstax-ics-web:p276",
+              "chars": 4077,
+              "section_title": "Processes and Concurrency",
+              "chunk_chars": 500,
+              "chapter": 6,
+              "section": "6.3",
+              "chunk_index": 5
+            },
+            "score": 0.7599
+          },
+          {
+            "id": "openstax-ics-web:p289:3",
+            "text": "n. The objectives of the\nprotection mechanism are to allow sharing (which in this context means using the hardware to do more than\none thing at a time), help detect and contain accidental or unintentional errors, and prevent intentional/\nmalicious abuses. The main challenge when it comes to protection is that intentional abuse is much more\ndifficult to eliminate than accidents.\nThere are three aspects to a protection mechanism: authentication, authorization, and access enforcement.\nAuthenticatio",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 289,
+            "metadata": {
+              "chapter": 6,
+              "section": "6.6",
+              "chunk_chars": 500,
+              "chunk_index": 3,
+              "chars": 2938,
+              "printed_page": 279,
+              "chapter_title": "Operating Systems",
+              "page_id": "openstax-ics-web:p289",
+              "section_title": "Reliability and Security"
+            },
+            "score": 0.7609
+          },
+          {
+            "id": "openstax-ics-web:p289:4",
+            "text": "n identifies a responsible party or principal behind each action, authorization determines which\nprincipals are allowed to perform which actions, and access enforcement controls access using authentication\nand authorization information. A tiny flaw in any of these areas can compromise the entire protection\nmechanism. It is extremely difficult to make all these protection mechanism techniques operate in such a way\nthat there are no loopholes that can be exploited by adversaries. Figure 6.36 illus",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 289,
+            "metadata": {
+              "section_title": "Reliability and Security",
+              "page_id": "openstax-ics-web:p289",
+              "chunk_chars": 500,
+              "chunk_index": 4,
+              "chars": 2938,
+              "chapter": 6,
+              "chapter_title": "Operating Systems",
+              "section": "6.6",
+              "printed_page": 279
+            },
+            "score": 0.7517
+          },
+          {
+            "id": "openstax-ics-web:p290:0",
+            "text": "Security\nThe process of checking to see if a user’s credentials match the credentials in a database of authorized users\nor in a data authentication server is called authentication. The traditional means of authentication involves\nthe user providing a password, which is a secret piece of information that is used to establish the identity of a\nuser and should be relatively long and hard to guess. Most systems store the passwords in a password\ndatabase. A password database must be protected because",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 290,
+            "metadata": {
+              "chapter_title": "Operating Systems",
+              "chunk_chars": 500,
+              "section_title": "Reliability and Security",
+              "chars": 4715,
+              "chapter": 6,
+              "chunk_index": 0,
+              "page_id": "openstax-ics-web:p290",
+              "printed_page": 280,
+              "section": "6.6"
+            },
+            "score": 0.7293
+          }
+        ],
+        "context": "[openstax-ics-web:p249:2 | Introduction_To_Computer_Science_-_WEB.pdf | page 249]\nf protection that supports all of the operating systems the company’s users use, including iOS, Windows,\nLinux, macOS, and Android. A data scientist working for the company proposes two solutions. The first\nsolution involves integrating an authorization method called two-factor authentication, which you’ll learn more\nabout later in the chapter. This method adds another level of security by asking users for their cell phone\nnumber so that it can send a one-time code to verify their identity every\n\n[openstax-ics-web:p276:5 | Introduction_To_Computer_Science_-_WEB.pdf | page 276]\nthreads or processes\nis crucial for maintaining data integrity and preventing race conditions. One common scenario is the\nproducer-consumer problem, where one or more threads (producers) generate data, and others\n(consumers) consume it. To avoid conflicts, synchronization mechanisms like locks and condition variables\nare employed. Locks help ensure that only one thread accesses a critical section of code at a time. In the\ncontext of the producer-consumer problem, locks can be utilized to safegua",
+        "context_ids": [
+          "openstax-ics-web:p249:2",
+          "openstax-ics-web:p276:5"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "blockchain security",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-ics-web:p289:3",
+            "text": "n. The objectives of the\nprotection mechanism are to allow sharing (which in this context means using the hardware to do more than\none thing at a time), help detect and contain accidental or unintentional errors, and prevent intentional/\nmalicious abuses. The main challenge when it comes to protection is that intentional abuse is much more\ndifficult to eliminate than accidents.\nThere are three aspects to a protection mechanism: authentication, authorization, and access enforcement.\nAuthenticatio",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 289,
+            "metadata": {
+              "page_id": "openstax-ics-web:p289",
+              "chapter": 6,
+              "chars": 2938,
+              "chapter_title": "Operating Systems",
+              "chunk_index": 3,
+              "section": "6.6",
+              "chunk_chars": 500,
+              "printed_page": 279,
+              "section_title": "Reliability and Security"
+            },
+            "score": 0.7609
+          },
+          {
+            "id": "openstax-ics-web:p249:2",
+            "text": "f protection that supports all of the operating systems the company’s users use, including iOS, Windows,\nLinux, macOS, and Android. A data scientist working for the company proposes two solutions. The first\nsolution involves integrating an authorization method called two-factor authentication, which you’ll learn more\nabout later in the chapter. This method adds another level of security by asking users for their cell phone\nnumber so that it can send a one-time code to verify their identity every",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 249,
+            "metadata": {
+              "printed_page": 239,
+              "chapter_title": "Operating Systems",
+              "chunk_index": 2,
+              "section_title": "Introduction",
+              "section": "6.0",
+              "chapter": 6,
+              "chars": 2335,
+              "chunk_chars": 500,
+              "page_id": "openstax-ics-web:p249"
+            },
+            "score": 0.7602
+          },
+          {
+            "id": "openstax-ics-web:p276:5",
+            "text": "threads or processes\nis crucial for maintaining data integrity and preventing race conditions. One common scenario is the\nproducer-consumer problem, where one or more threads (producers) generate data, and others\n(consumers) consume it. To avoid conflicts, synchronization mechanisms like locks and condition variables\nare employed. Locks help ensure that only one thread accesses a critical section of code at a time. In the\ncontext of the producer-consumer problem, locks can be utilized to safegua",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 276,
+            "metadata": {
+              "chars": 4077,
+              "chunk_chars": 500,
+              "chapter_title": "Operating Systems",
+              "chapter": 6,
+              "chunk_index": 5,
+              "section_title": "Processes and Concurrency",
+              "page_id": "openstax-ics-web:p276",
+              "section": "6.3",
+              "printed_page": 266
+            },
+            "score": 0.7531
+          },
+          {
+            "id": "openstax-ics-web:p289:4",
+            "text": "n identifies a responsible party or principal behind each action, authorization determines which\nprincipals are allowed to perform which actions, and access enforcement controls access using authentication\nand authorization information. A tiny flaw in any of these areas can compromise the entire protection\nmechanism. It is extremely difficult to make all these protection mechanism techniques operate in such a way\nthat there are no loopholes that can be exploited by adversaries. Figure 6.36 illus",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 289,
+            "metadata": {
+              "chunk_chars": 500,
+              "chars": 2938,
+              "chapter_title": "Operating Systems",
+              "chapter": 6,
+              "page_id": "openstax-ics-web:p289",
+              "printed_page": 279,
+              "section": "6.6",
+              "section_title": "Reliability and Security",
+              "chunk_index": 4
+            },
+            "score": 0.7517
+          },
+          {
+            "id": "openstax-ics-web:p290:4",
+            "text": "he user id is associated with every process executed under that login because\nthe user id is stored in the process control block and children inherit the user id from their parents. Once\nauthentication is complete, the next step of protection is authorization.\nThe process of determining the relationship between principals, operations, and objects by defining the kind\nof principals that are allowed to carry out a specific activity with a defined set of objects is called\nauthorization. These princ",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 290,
+            "metadata": {
+              "chunk_index": 4,
+              "chapter_title": "Operating Systems",
+              "page_id": "openstax-ics-web:p290",
+              "section": "6.6",
+              "printed_page": 280,
+              "chapter": 6,
+              "chars": 4715,
+              "chunk_chars": 500,
+              "section_title": "Reliability and Security"
+            },
+            "score": 0.7331
+          }
+        ],
+        "context": "[openstax-ics-web:p290:4 | Introduction_To_Computer_Science_-_WEB.pdf | page 290]\nhe user id is associated with every process executed under that login because\nthe user id is stored in the process control block and children inherit the user id from their parents. Once\nauthentication is complete, the next step of protection is authorization.\nThe process of determining the relationship between principals, operations, and objects by defining the kind\nof principals that are allowed to carry out a specific activity with a defined set of objects is called\nauthorization. These princ\n\n[openstax-ics-web:p249:2 | Introduction_To_Computer_Science_-_WEB.pdf | page 249]\nf protection that supports all of the operating systems the company’s users use, including iOS, Windows,\nLinux, macOS, and Android. A data scientist working for the company proposes two solutions. The first\nsolution involves integrating an authorization method called two-factor authentication, which you’ll learn more\nabout later in the chapter. This method adds another level of security by asking users for their cell phone\nnumber so that it can send a one-time code to verify their identity every",
+        "context_ids": [
+          "openstax-ics-web:p290:4",
+          "openstax-ics-web:p249:2"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "blockchain data security",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-ics-web:p249:2",
+            "text": "f protection that supports all of the operating systems the company’s users use, including iOS, Windows,\nLinux, macOS, and Android. A data scientist working for the company proposes two solutions. The first\nsolution involves integrating an authorization method called two-factor authentication, which you’ll learn more\nabout later in the chapter. This method adds another level of security by asking users for their cell phone\nnumber so that it can send a one-time code to verify their identity every",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 249,
+            "metadata": {
+              "chapter": 6,
+              "chunk_chars": 500,
+              "section_title": "Introduction",
+              "chunk_index": 2,
+              "printed_page": 239,
+              "chars": 2335,
+              "section": "6.0",
+              "chapter_title": "Operating Systems",
+              "page_id": "openstax-ics-web:p249"
+            },
+            "score": 0.7659
+          },
+          {
+            "id": "openstax-ics-web:p276:5",
+            "text": "threads or processes\nis crucial for maintaining data integrity and preventing race conditions. One common scenario is the\nproducer-consumer problem, where one or more threads (producers) generate data, and others\n(consumers) consume it. To avoid conflicts, synchronization mechanisms like locks and condition variables\nare employed. Locks help ensure that only one thread accesses a critical section of code at a time. In the\ncontext of the producer-consumer problem, locks can be utilized to safegua",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 276,
+            "metadata": {
+              "section": "6.3",
+              "printed_page": 266,
+              "chapter": 6,
+              "chapter_title": "Operating Systems",
+              "chunk_chars": 500,
+              "chars": 4077,
+              "chunk_index": 5,
+              "page_id": "openstax-ics-web:p276",
+              "section_title": "Processes and Concurrency"
+            },
+            "score": 0.7599
+          },
+          {
+            "id": "openstax-ics-web:p289:3",
+            "text": "n. The objectives of the\nprotection mechanism are to allow sharing (which in this context means using the hardware to do more than\none thing at a time), help detect and contain accidental or unintentional errors, and prevent intentional/\nmalicious abuses. The main challenge when it comes to protection is that intentional abuse is much more\ndifficult to eliminate than accidents.\nThere are three aspects to a protection mechanism: authentication, authorization, and access enforcement.\nAuthenticatio",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 289,
+            "metadata": {
+              "chapter": 6,
+              "chunk_index": 3,
+              "chapter_title": "Operating Systems",
+              "section": "6.6",
+              "section_title": "Reliability and Security",
+              "chars": 2938,
+              "chunk_chars": 500,
+              "page_id": "openstax-ics-web:p289",
+              "printed_page": 279
+            },
+            "score": 0.7553
+          },
+          {
+            "id": "openstax-ics-web:p289:4",
+            "text": "n identifies a responsible party or principal behind each action, authorization determines which\nprincipals are allowed to perform which actions, and access enforcement controls access using authentication\nand authorization information. A tiny flaw in any of these areas can compromise the entire protection\nmechanism. It is extremely difficult to make all these protection mechanism techniques operate in such a way\nthat there are no loopholes that can be exploited by adversaries. Figure 6.36 illus",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 289,
+            "metadata": {
+              "chars": 2938,
+              "chunk_chars": 500,
+              "chapter": 6,
+              "section_title": "Reliability and Security",
+              "page_id": "openstax-ics-web:p289",
+              "printed_page": 279,
+              "section": "6.6",
+              "chunk_index": 4,
+              "chapter_title": "Operating Systems"
+            },
+            "score": 0.7415
+          },
+          {
+            "id": "openstax-ics-web:p290:0",
+            "text": "Security\nThe process of checking to see if a user’s credentials match the credentials in a database of authorized users\nor in a data authentication server is called authentication. The traditional means of authentication involves\nthe user providing a password, which is a secret piece of information that is used to establish the identity of a\nuser and should be relatively long and hard to guess. Most systems store the passwords in a password\ndatabase. A password database must be protected because",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 290,
+            "metadata": {
+              "chunk_index": 0,
+              "chars": 4715,
+              "section": "6.6",
+              "page_id": "openstax-ics-web:p290",
+              "printed_page": 280,
+              "chapter_title": "Operating Systems",
+              "section_title": "Reliability and Security",
+              "chapter": 6,
+              "chunk_chars": 500
+            },
+            "score": 0.7293
+          }
+        ],
+        "context": "[openstax-ics-web:p249:2 | Introduction_To_Computer_Science_-_WEB.pdf | page 249]\nf protection that supports all of the operating systems the company’s users use, including iOS, Windows,\nLinux, macOS, and Android. A data scientist working for the company proposes two solutions. The first\nsolution involves integrating an authorization method called two-factor authentication, which you’ll learn more\nabout later in the chapter. This method adds another level of security by asking users for their cell phone\nnumber so that it can send a one-time code to verify their identity every\n\n[openstax-ics-web:p276:5 | Introduction_To_Computer_Science_-_WEB.pdf | page 276]\nthreads or processes\nis crucial for maintaining data integrity and preventing race conditions. One common scenario is the\nproducer-consumer problem, where one or more threads (producers) generate data, and others\n(consumers) consume it. To avoid conflicts, synchronization mechanisms like locks and condition variables\nare employed. Locks help ensure that only one thread accesses a critical section of code at a time. In the\ncontext of the producer-consumer problem, locks can be utilized to safegua",
+        "context_ids": [
+          "openstax-ics-web:p249:2",
+          "openstax-ics-web:p276:5"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "blockchain security",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-ics-web:p289:3",
+            "text": "n. The objectives of the\nprotection mechanism are to allow sharing (which in this context means using the hardware to do more than\none thing at a time), help detect and contain accidental or unintentional errors, and prevent intentional/\nmalicious abuses. The main challenge when it comes to protection is that intentional abuse is much more\ndifficult to eliminate than accidents.\nThere are three aspects to a protection mechanism: authentication, authorization, and access enforcement.\nAuthenticatio",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 289,
+            "metadata": {
+              "chapter_title": "Operating Systems",
+              "printed_page": 279,
+              "section_title": "Reliability and Security",
+              "section": "6.6",
+              "page_id": "openstax-ics-web:p289",
+              "chars": 2938,
+              "chunk_chars": 500,
+              "chunk_index": 3,
+              "chapter": 6
+            },
+            "score": 0.7609
+          },
+          {
+            "id": "openstax-ics-web:p249:2",
+            "text": "f protection that supports all of the operating systems the company’s users use, including iOS, Windows,\nLinux, macOS, and Android. A data scientist working for the company proposes two solutions. The first\nsolution involves integrating an authorization method called two-factor authentication, which you’ll learn more\nabout later in the chapter. This method adds another level of security by asking users for their cell phone\nnumber so that it can send a one-time code to verify their identity every",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 249,
+            "metadata": {
+              "printed_page": 239,
+              "section_title": "Introduction",
+              "chunk_index": 2,
+              "chapter": 6,
+              "chapter_title": "Operating Systems",
+              "chunk_chars": 500,
+              "section": "6.0",
+              "chars": 2335,
+              "page_id": "openstax-ics-web:p249"
+            },
+            "score": 0.7602
+          },
+          {
+            "id": "openstax-ics-web:p276:5",
+            "text": "threads or processes\nis crucial for maintaining data integrity and preventing race conditions. One common scenario is the\nproducer-consumer problem, where one or more threads (producers) generate data, and others\n(consumers) consume it. To avoid conflicts, synchronization mechanisms like locks and condition variables\nare employed. Locks help ensure that only one thread accesses a critical section of code at a time. In the\ncontext of the producer-consumer problem, locks can be utilized to safegua",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 276,
+            "metadata": {
+              "section": "6.3",
+              "page_id": "openstax-ics-web:p276",
+              "chars": 4077,
+              "printed_page": 266,
+              "chunk_chars": 500,
+              "chapter": 6,
+              "section_title": "Processes and Concurrency",
+              "chunk_index": 5,
+              "chapter_title": "Operating Systems"
+            },
+            "score": 0.7531
+          },
+          {
+            "id": "openstax-ics-web:p289:4",
+            "text": "n identifies a responsible party or principal behind each action, authorization determines which\nprincipals are allowed to perform which actions, and access enforcement controls access using authentication\nand authorization information. A tiny flaw in any of these areas can compromise the entire protection\nmechanism. It is extremely difficult to make all these protection mechanism techniques operate in such a way\nthat there are no loopholes that can be exploited by adversaries. Figure 6.36 illus",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 289,
+            "metadata": {
+              "chunk_chars": 500,
+              "section_title": "Reliability and Security",
+              "chunk_index": 4,
+              "chapter": 6,
+              "chapter_title": "Operating Systems",
+              "section": "6.6",
+              "printed_page": 279,
+              "chars": 2938,
+              "page_id": "openstax-ics-web:p289"
+            },
+            "score": 0.7517
+          },
+          {
+            "id": "openstax-ics-web:p290:4",
+            "text": "he user id is associated with every process executed under that login because\nthe user id is stored in the process control block and children inherit the user id from their parents. Once\nauthentication is complete, the next step of protection is authorization.\nThe process of determining the relationship between principals, operations, and objects by defining the kind\nof principals that are allowed to carry out a specific activity with a defined set of objects is called\nauthorization. These princ",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 290,
+            "metadata": {
+              "chars": 4715,
+              "chunk_chars": 500,
+              "section_title": "Reliability and Security",
+              "section": "6.6",
+              "chunk_index": 4,
+              "chapter": 6,
+              "chapter_title": "Operating Systems",
+              "page_id": "openstax-ics-web:p290",
+              "printed_page": 280
+            },
+            "score": 0.7331
+          }
+        ],
+        "context": "[openstax-ics-web:p249:2 | Introduction_To_Computer_Science_-_WEB.pdf | page 249]\nf protection that supports all of the operating systems the company’s users use, including iOS, Windows,\nLinux, macOS, and Android. A data scientist working for the company proposes two solutions. The first\nsolution involves integrating an authorization method called two-factor authentication, which you’ll learn more\nabout later in the chapter. This method adds another level of security by asking users for their cell phone\nnumber so that it can send a one-time code to verify their identity every\n\n[openstax-ics-web:p276:5 | Introduction_To_Computer_Science_-_WEB.pdf | page 276]\nthreads or processes\nis crucial for maintaining data integrity and preventing race conditions. One common scenario is the\nproducer-consumer problem, where one or more threads (producers) generate data, and others\n(consumers) consume it. To avoid conflicts, synchronization mechanisms like locks and condition variables\nare employed. Locks help ensure that only one thread accesses a critical section of code at a time. In the\ncontext of the producer-consumer problem, locks can be utilized to safegua",
+        "context_ids": [
+          "openstax-ics-web:p249:2",
+          "openstax-ics-web:p276:5"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ]
+  },
+  {
+    "query_id": "na4",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "garbage collection Python",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-ics-web:p212:2",
+            "text": "mbly language program (language 2). The interpreter takes one line (or command) in the program in\nlanguage 1 and generates one (or more) instructions in language 2. Python is a popular example of an\ninterpreted language.\nUnderstanding the hardware level allows us to see how computers execute programs. The main part of the\ncomputer hardware that does the execution is called the processor. The processor takes one instruction from\nthe machine language file, executes it, and writes the results back ",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 212,
+            "metadata": {
+              "chars": 2625,
+              "section_title": "Computer Levels of Abstraction",
+              "chunk_index": 2,
+              "page_id": "openstax-ics-web:p212",
+              "printed_page": 202,
+              "chunk_chars": 500,
+              "section": "5.2",
+              "chapter": 5,
+              "chapter_title": "Computer Systems Organization"
+            },
+            "score": 0.7306
+          },
+          {
+            "id": "openstax-ics-web:p283:2",
+            "text": "paging) is called page fetching. Most modern OSs use page fetching by starting the process with no\npages loaded and do not load a page into memory until it is referenced. If a requested page is stored on the\ndisk, prefetching, which is the act of trying to predict when pages will be needed and loading them ahead of\ntime to avoid page faults, is performed.\nIf all memory is in use, it is necessary to throw out one page each time there is a page fault. This process is\ncalled page replacement. In pa",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 283,
+            "metadata": {
+              "section_title": "Memory Management",
+              "section": "6.4",
+              "chars": 2941,
+              "chapter": 6,
+              "page_id": "openstax-ics-web:p283",
+              "chapter_title": "Operating Systems",
+              "chunk_chars": 500,
+              "chunk_index": 2,
+              "printed_page": 273
+            },
+            "score": 0.7303
+          },
+          {
+            "id": "openstax-ics-web:p281:0",
+            "text": "Allocating the data in a tree-based data structure called a heap is heap allocation. A heap is represented by a\ncomplete binary tree. As shown in Figure 6.30, a heap data structure can be of two types: max heap and min\nheap. Max heap presets the root node with the greatest value and the same for the sub trees. It is the opposite\nfor the min heap, where the root will have the minimum value and the same for the sub trees.\nFigure 6.30 Heap allocation uses a data structure called a heap to manage me",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 281,
+            "metadata": {
+              "section_title": "Memory Management",
+              "page_id": "openstax-ics-web:p281",
+              "chunk_index": 0,
+              "section": "6.4",
+              "printed_page": 271,
+              "chars": 3346,
+              "chapter_title": "Operating Systems",
+              "chapter": 6,
+              "chunk_chars": 500
+            },
+            "score": 0.7155
+          },
+          {
+            "id": "openstax-ics-web:p232:5",
+            "text": "ache. In most processors available now, the cache usually brings 64 bytes from the memory. So, if array A\nis an array of integers, that is, each element is 4 bytes in length, then the cache brings 16 elements from the\nmemory, from A[0] to A[15]. The processor gets the A[0] it wants, and the extra elements brought from\nmemory, which are in the cache. Now, if the processor wants A[1], it finds it right away in the cache, which is\ncalled a cache hit. However, if the processor instead needs A[17], t",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 232,
+            "metadata": {
+              "chunk_chars": 500,
+              "page_id": "openstax-ics-web:p232",
+              "section": "5.5",
+              "printed_page": 222,
+              "chunk_index": 5,
+              "section_title": "Memory Hierarchy",
+              "chapter": 5,
+              "chars": 3214,
+              "chapter_title": "Computer Systems Organization"
+            },
+            "score": 0.717
+          },
+          {
+            "id": "openstax-ics-web:p218:2",
+            "text": "ide the computer is not only integers. If you look at a keyboard you see a\nbunch of characters, digits, and symbols and when you press a key, that symbol appears on the screen. But\nhow do computers recognize these characters and deal with them?\nEach printable and non-printable character on the keyboard has a unit code or unique binary number. These\ncodes are known as American Standard Code for Information Interchange (ASCII). Capital letters have\ndifferent codes from lowercase letters. For examp",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 218,
+            "metadata": {
+              "page_id": "openstax-ics-web:p218",
+              "chapter_title": "Computer Systems Organization",
+              "chunk_index": 2,
+              "chunk_chars": 500,
+              "section": "5.3",
+              "section_title": "Machine-Level Information Representation",
+              "printed_page": 208,
+              "chars": 3085,
+              "chapter": 5
+            },
+            "score": 0.6921
+          }
+        ],
+        "context": "[openstax-ics-web:p212:2 | Introduction_To_Computer_Science_-_WEB.pdf | page 212]\nmbly language program (language 2). The interpreter takes one line (or command) in the program in\nlanguage 1 and generates one (or more) instructions in language 2. Python is a popular example of an\ninterpreted language.\nUnderstanding the hardware level allows us to see how computers execute programs. The main part of the\ncomputer hardware that does the execution is called the processor. The processor takes one instruction from\nthe machine language file, executes it, and writes the results back \n\n[openstax-ics-web:p283:2 | Introduction_To_Computer_Science_-_WEB.pdf | page 283]\npaging) is called page fetching. Most modern OSs use page fetching by starting the process with no\npages loaded and do not load a page into memory until it is referenced. If a requested page is stored on the\ndisk, prefetching, which is the act of trying to predict when pages will be needed and loading them ahead of\ntime to avoid page faults, is performed.\nIf all memory is in use, it is necessary to throw out one page each time there is a page fault. This process is\ncalled page replacement. In pa",
+        "context_ids": [
+          "openstax-ics-web:p212:2",
+          "openstax-ics-web:p283:2"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Python garbage collection mechanism",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-ics-web:p281:2",
+            "text": "ap approach when the allocation and release of memory are not predictable (i.e.,\nwhen it is not clear how much memory is needed until we run the program). Typically, the heap stores data\nstructures that can change in size over time based on how many elements are added or removed from the\ndata structure. The corresponding heap memory consists of allocated areas and free areas (or holes).\nVirtual Memory\nThe key component of the operating system that ensures process isolation by guaranteeing that e",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 281,
+            "metadata": {
+              "chunk_chars": 500,
+              "page_id": "openstax-ics-web:p281",
+              "chars": 3346,
+              "chunk_index": 2,
+              "printed_page": 271,
+              "chapter_title": "Operating Systems",
+              "chapter": 6,
+              "section_title": "Memory Management",
+              "section": "6.4"
+            },
+            "score": 0.748
+          },
+          {
+            "id": "openstax-ics-web:p218:6",
+            "text": "e Realizations of Algorithms: Computer Systems Design\nAccess for free at openstax.org",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 218,
+            "metadata": {
+              "chapter_title": "Computer Systems Organization",
+              "page_id": "openstax-ics-web:p218",
+              "chars": 3085,
+              "chapter": 5,
+              "printed_page": 208,
+              "chunk_index": 6,
+              "section_title": "Machine-Level Information Representation",
+              "chunk_chars": 85,
+              "section": "5.3"
+            },
+            "score": 0.7406
+          },
+          {
+            "id": "openstax-ics-web:p276:8",
+            "text": "tructure Abstraction Layer: Operating Systems\nAccess for free at openstax.org",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 276,
+            "metadata": {
+              "printed_page": 266,
+              "chunk_index": 8,
+              "section_title": "Processes and Concurrency",
+              "chunk_chars": 77,
+              "chapter": 6,
+              "chars": 4077,
+              "section": "6.3",
+              "page_id": "openstax-ics-web:p276",
+              "chapter_title": "Operating Systems"
+            },
+            "score": 0.735
+          },
+          {
+            "id": "openstax-ics-web:p276:5",
+            "text": "threads or processes\nis crucial for maintaining data integrity and preventing race conditions. One common scenario is the\nproducer-consumer problem, where one or more threads (producers) generate data, and others\n(consumers) consume it. To avoid conflicts, synchronization mechanisms like locks and condition variables\nare employed. Locks help ensure that only one thread accesses a critical section of code at a time. In the\ncontext of the producer-consumer problem, locks can be utilized to safegua",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 276,
+            "metadata": {
+              "section_title": "Processes and Concurrency",
+              "section": "6.3",
+              "chunk_index": 5,
+              "chapter_title": "Operating Systems",
+              "chars": 4077,
+              "printed_page": 266,
+              "chunk_chars": 500,
+              "chapter": 6,
+              "page_id": "openstax-ics-web:p276"
+            },
+            "score": 0.7307
+          },
+          {
+            "id": "openstax-ics-web:p283:2",
+            "text": "paging) is called page fetching. Most modern OSs use page fetching by starting the process with no\npages loaded and do not load a page into memory until it is referenced. If a requested page is stored on the\ndisk, prefetching, which is the act of trying to predict when pages will be needed and loading them ahead of\ntime to avoid page faults, is performed.\nIf all memory is in use, it is necessary to throw out one page each time there is a page fault. This process is\ncalled page replacement. In pa",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 283,
+            "metadata": {
+              "chars": 2941,
+              "section_title": "Memory Management",
+              "section": "6.4",
+              "chunk_chars": 500,
+              "chapter": 6,
+              "chapter_title": "Operating Systems",
+              "page_id": "openstax-ics-web:p283",
+              "chunk_index": 2,
+              "printed_page": 273
+            },
+            "score": 0.7303
+          }
+        ],
+        "context": "[openstax-ics-web:p281:2 | Introduction_To_Computer_Science_-_WEB.pdf | page 281]\nap approach when the allocation and release of memory are not predictable (i.e.,\nwhen it is not clear how much memory is needed until we run the program). Typically, the heap stores data\nstructures that can change in size over time based on how many elements are added or removed from the\ndata structure. The corresponding heap memory consists of allocated areas and free areas (or holes).\nVirtual Memory\nThe key component of the operating system that ensures process isolation by guaranteeing that e\n\n[openstax-ics-web:p218:6 | Introduction_To_Computer_Science_-_WEB.pdf | page 218]\ne Realizations of Algorithms: Computer Systems Design\nAccess for free at openstax.org\n\n[openstax-ics-web:p276:8 | Introduction_To_Computer_Science_-_WEB.pdf | page 276]\ntructure Abstraction Layer: Operating Systems\nAccess for free at openstax.org",
+        "context_ids": [
+          "openstax-ics-web:p281:2",
+          "openstax-ics-web:p218:6",
+          "openstax-ics-web:p276:8"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "garbage collection in Python",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-ics-web:p212:2",
+            "text": "mbly language program (language 2). The interpreter takes one line (or command) in the program in\nlanguage 1 and generates one (or more) instructions in language 2. Python is a popular example of an\ninterpreted language.\nUnderstanding the hardware level allows us to see how computers execute programs. The main part of the\ncomputer hardware that does the execution is called the processor. The processor takes one instruction from\nthe machine language file, executes it, and writes the results back ",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 212,
+            "metadata": {
+              "printed_page": 202,
+              "chars": 2625,
+              "section_title": "Computer Levels of Abstraction",
+              "chunk_index": 2,
+              "page_id": "openstax-ics-web:p212",
+              "chapter": 5,
+              "section": "5.2",
+              "chunk_chars": 500,
+              "chapter_title": "Computer Systems Organization"
+            },
+            "score": 0.7306
+          },
+          {
+            "id": "openstax-ics-web:p283:2",
+            "text": "paging) is called page fetching. Most modern OSs use page fetching by starting the process with no\npages loaded and do not load a page into memory until it is referenced. If a requested page is stored on the\ndisk, prefetching, which is the act of trying to predict when pages will be needed and loading them ahead of\ntime to avoid page faults, is performed.\nIf all memory is in use, it is necessary to throw out one page each time there is a page fault. This process is\ncalled page replacement. In pa",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 283,
+            "metadata": {
+              "page_id": "openstax-ics-web:p283",
+              "chunk_index": 2,
+              "chunk_chars": 500,
+              "section_title": "Memory Management",
+              "printed_page": 273,
+              "chars": 2941,
+              "chapter": 6,
+              "section": "6.4",
+              "chapter_title": "Operating Systems"
+            },
+            "score": 0.7257
+          },
+          {
+            "id": "openstax-ics-web:p276:5",
+            "text": "threads or processes\nis crucial for maintaining data integrity and preventing race conditions. One common scenario is the\nproducer-consumer problem, where one or more threads (producers) generate data, and others\n(consumers) consume it. To avoid conflicts, synchronization mechanisms like locks and condition variables\nare employed. Locks help ensure that only one thread accesses a critical section of code at a time. In the\ncontext of the producer-consumer problem, locks can be utilized to safegua",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 276,
+            "metadata": {
+              "chapter": 6,
+              "chunk_index": 5,
+              "printed_page": 266,
+              "section": "6.3",
+              "section_title": "Processes and Concurrency",
+              "page_id": "openstax-ics-web:p276",
+              "chapter_title": "Operating Systems",
+              "chars": 4077,
+              "chunk_chars": 500
+            },
+            "score": 0.7217
+          },
+          {
+            "id": "openstax-ics-web:p232:5",
+            "text": "ache. In most processors available now, the cache usually brings 64 bytes from the memory. So, if array A\nis an array of integers, that is, each element is 4 bytes in length, then the cache brings 16 elements from the\nmemory, from A[0] to A[15]. The processor gets the A[0] it wants, and the extra elements brought from\nmemory, which are in the cache. Now, if the processor wants A[1], it finds it right away in the cache, which is\ncalled a cache hit. However, if the processor instead needs A[17], t",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 232,
+            "metadata": {
+              "chunk_chars": 500,
+              "chapter": 5,
+              "section_title": "Memory Hierarchy",
+              "page_id": "openstax-ics-web:p232",
+              "chars": 3214,
+              "chunk_index": 5,
+              "chapter_title": "Computer Systems Organization",
+              "printed_page": 222,
+              "section": "5.5"
+            },
+            "score": 0.717
+          },
+          {
+            "id": "openstax-ics-web:p281:0",
+            "text": "Allocating the data in a tree-based data structure called a heap is heap allocation. A heap is represented by a\ncomplete binary tree. As shown in Figure 6.30, a heap data structure can be of two types: max heap and min\nheap. Max heap presets the root node with the greatest value and the same for the sub trees. It is the opposite\nfor the min heap, where the root will have the minimum value and the same for the sub trees.\nFigure 6.30 Heap allocation uses a data structure called a heap to manage me",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 281,
+            "metadata": {
+              "chunk_chars": 500,
+              "chapter_title": "Operating Systems",
+              "chars": 3346,
+              "section": "6.4",
+              "section_title": "Memory Management",
+              "chapter": 6,
+              "chunk_index": 0,
+              "page_id": "openstax-ics-web:p281",
+              "printed_page": 271
+            },
+            "score": 0.7155
+          }
+        ],
+        "context": "[openstax-ics-web:p212:2 | Introduction_To_Computer_Science_-_WEB.pdf | page 212]\nmbly language program (language 2). The interpreter takes one line (or command) in the program in\nlanguage 1 and generates one (or more) instructions in language 2. Python is a popular example of an\ninterpreted language.\nUnderstanding the hardware level allows us to see how computers execute programs. The main part of the\ncomputer hardware that does the execution is called the processor. The processor takes one instruction from\nthe machine language file, executes it, and writes the results back \n\n[openstax-ics-web:p283:2 | Introduction_To_Computer_Science_-_WEB.pdf | page 283]\npaging) is called page fetching. Most modern OSs use page fetching by starting the process with no\npages loaded and do not load a page into memory until it is referenced. If a requested page is stored on the\ndisk, prefetching, which is the act of trying to predict when pages will be needed and loading them ahead of\ntime to avoid page faults, is performed.\nIf all memory is in use, it is necessary to throw out one page each time there is a page fault. This process is\ncalled page replacement. In pa",
+        "context_ids": [
+          "openstax-ics-web:p212:2",
+          "openstax-ics-web:p283:2"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Python garbage collection mechanism",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-ics-web:p281:2",
+            "text": "ap approach when the allocation and release of memory are not predictable (i.e.,\nwhen it is not clear how much memory is needed until we run the program). Typically, the heap stores data\nstructures that can change in size over time based on how many elements are added or removed from the\ndata structure. The corresponding heap memory consists of allocated areas and free areas (or holes).\nVirtual Memory\nThe key component of the operating system that ensures process isolation by guaranteeing that e",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 281,
+            "metadata": {
+              "section": "6.4",
+              "chapter_title": "Operating Systems",
+              "section_title": "Memory Management",
+              "chars": 3346,
+              "chunk_chars": 500,
+              "chapter": 6,
+              "chunk_index": 2,
+              "printed_page": 271,
+              "page_id": "openstax-ics-web:p281"
+            },
+            "score": 0.748
+          },
+          {
+            "id": "openstax-ics-web:p218:6",
+            "text": "e Realizations of Algorithms: Computer Systems Design\nAccess for free at openstax.org",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 218,
+            "metadata": {
+              "printed_page": 208,
+              "chapter": 5,
+              "chunk_index": 6,
+              "chars": 3085,
+              "chapter_title": "Computer Systems Organization",
+              "page_id": "openstax-ics-web:p218",
+              "section": "5.3",
+              "section_title": "Machine-Level Information Representation",
+              "chunk_chars": 85
+            },
+            "score": 0.7406
+          },
+          {
+            "id": "openstax-ics-web:p276:8",
+            "text": "tructure Abstraction Layer: Operating Systems\nAccess for free at openstax.org",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 276,
+            "metadata": {
+              "page_id": "openstax-ics-web:p276",
+              "section_title": "Processes and Concurrency",
+              "chapter_title": "Operating Systems",
+              "chunk_index": 8,
+              "chunk_chars": 77,
+              "printed_page": 266,
+              "section": "6.3",
+              "chapter": 6,
+              "chars": 4077
+            },
+            "score": 0.735
+          },
+          {
+            "id": "openstax-ics-web:p276:5",
+            "text": "threads or processes\nis crucial for maintaining data integrity and preventing race conditions. One common scenario is the\nproducer-consumer problem, where one or more threads (producers) generate data, and others\n(consumers) consume it. To avoid conflicts, synchronization mechanisms like locks and condition variables\nare employed. Locks help ensure that only one thread accesses a critical section of code at a time. In the\ncontext of the producer-consumer problem, locks can be utilized to safegua",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 276,
+            "metadata": {
+              "chars": 4077,
+              "chunk_chars": 500,
+              "chapter": 6,
+              "chunk_index": 5,
+              "printed_page": 266,
+              "section": "6.3",
+              "chapter_title": "Operating Systems",
+              "section_title": "Processes and Concurrency",
+              "page_id": "openstax-ics-web:p276"
+            },
+            "score": 0.7307
+          },
+          {
+            "id": "openstax-ics-web:p283:2",
+            "text": "paging) is called page fetching. Most modern OSs use page fetching by starting the process with no\npages loaded and do not load a page into memory until it is referenced. If a requested page is stored on the\ndisk, prefetching, which is the act of trying to predict when pages will be needed and loading them ahead of\ntime to avoid page faults, is performed.\nIf all memory is in use, it is necessary to throw out one page each time there is a page fault. This process is\ncalled page replacement. In pa",
+            "source_id": "openstax-ics-web",
+            "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+            "page": 283,
+            "metadata": {
+              "chapter_title": "Operating Systems",
+              "section_title": "Memory Management",
+              "chunk_index": 2,
+              "section": "6.4",
+              "chars": 2941,
+              "chunk_chars": 500,
+              "chapter": 6,
+              "page_id": "openstax-ics-web:p283",
+              "printed_page": 273
+            },
+            "score": 0.7303
+          }
+        ],
+        "context": "[openstax-ics-web:p212:2 | Introduction_To_Computer_Science_-_WEB.pdf | page 212]\nmbly language program (language 2). The interpreter takes one line (or command) in the program in\nlanguage 1 and generates one (or more) instructions in language 2. Python is a popular example of an\ninterpreted language.\nUnderstanding the hardware level allows us to see how computers execute programs. The main part of the\ncomputer hardware that does the execution is called the processor. The processor takes one instruction from\nthe machine language file, executes it, and writes the results back \n\n[openstax-ics-web:p283:2 | Introduction_To_Computer_Science_-_WEB.pdf | page 283]\npaging) is called page fetching. Most modern OSs use page fetching by starting the process with no\npages loaded and do not load a page into memory until it is referenced. If a requested page is stored on the\ndisk, prefetching, which is the act of trying to predict when pages will be needed and loading them ahead of\ntime to avoid page faults, is performed.\nIf all memory is in use, it is necessary to throw out one page each time there is a page fault. This process is\ncalled page replacement. In pa",
+        "context_ids": [
+          "openstax-ics-web:p212:2",
+          "openstax-ics-web:p283:2"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ]
+  }
+]

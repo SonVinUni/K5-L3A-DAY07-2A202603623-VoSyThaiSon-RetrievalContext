@@ -1,0 +1,1442 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "Hệ điều hành (OS) là thành phần phần mềm nào trong máy tính và nó quản lý điều gì?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-ics-web",
+        "page": 250,
+        "evidence": "An operating system (OS) is the core piece of software that typically manages and controls the\ninterconnection of hardware and software on a computer.",
+        "note": "verbatim-window-from-chunk"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-ics-web:p257:0",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 257,
+        "text": "the computer. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nIn this module, we study OS components such as process management and threads, memory and address\nspace management, and device drivers and I/O devices. In addition, we cover OS structures such as monolithic\nOS design, layered OS design, hardware abstraction layer (HAL), and microkernels.\nOS Components\nOS is a complex system that is typically created using the divide and conquer mechanism. That is, the",
+        "metadata": {
+          "section_title": "Fundamental OS Concepts",
+          "section": "6.2",
+          "chars": 3302,
+          "chunk_chars": 500,
+          "chapter_title": "Operating Systems",
+          "page_id": "openstax-ics-web:p257",
+          "chunk_index": 0,
+          "printed_page": 247,
+          "chapter": 6
+        },
+        "score": 0.40372384490554597,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p263:6",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 263,
+        "text": "SA 4.0 license)\nLayered OS Design\nOne alternative way to achieve monolithic OS design is the layered OS architecture, which consists of\nimplementing the OS as a set of layers where each layer exposes an enhanced “virtual machine” to the layer\nabove, as illustrated in Figure 6.12.\n6.2 • Fundamental OS Concepts 253",
+        "metadata": {
+          "chapter_title": "Operating Systems",
+          "chunk_index": 6,
+          "page_id": "openstax-ics-web:p263",
+          "printed_page": 253,
+          "chapter": 6,
+          "chars": 3314,
+          "section": "6.2",
+          "chunk_chars": 314,
+          "section_title": "Fundamental OS Concepts"
+        },
+        "score": 0.37284264183049987,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p257:1",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 257,
+        "text": " system is\ndivided into small pieces, each of which defines a part of the system. The OS component’s structure is static,\nand the OS and the hardware are tightly coupled together. The application programming interface (API) is a\nset of rules and tools that allows different software applications to communicate with each other. Applications\nmake requests to the OS through API. The user can, using a keyboard and/or mouse, interact with the OS\nthrough the OS interface. The OS interface could be a gr",
+        "metadata": {
+          "chapter": 6,
+          "printed_page": 247,
+          "page_id": "openstax-ics-web:p257",
+          "chapter_title": "Operating Systems",
+          "section_title": "Fundamental OS Concepts",
+          "chunk_index": 1,
+          "chunk_chars": 500,
+          "chars": 3302,
+          "section": "6.2"
+        },
+        "score": 0.3569779917390845,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-ics-web:p257:0 | Introduction_To_Computer_Science_-_WEB.pdf | page 257]\nthe computer. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nIn this module, we study OS components such as process management and threads, memory and address\nspace management, and device drivers and I/O devices. In addition, we cover OS structures such as monolithic\nOS design, layered OS design, hardware abstraction layer (HAL), and microkernels.\nOS Components\nOS is a complex system that is typically created using the divide and conquer mechanism. That is, the",
+    "context_ids": [
+      "openstax-ics-web:p257:0"
+    ],
+    "context_chars": 582,
+    "elapsed_ms": 0.37599999632220715,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "Thuật ngữ nào dùng để chỉ việc OS quyết định chương trình nào dùng phần cứng nào tại mỗi thời điểm?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-ics-web",
+        "page": 214,
+        "evidence": "The process in which the OS manages which program to use with what part of the hardware at any given\ntime is called scheduling.",
+        "note": "verbatim-window-from-chunk"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-ics-web:p257:0",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 257,
+        "text": "the computer. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nIn this module, we study OS components such as process management and threads, memory and address\nspace management, and device drivers and I/O devices. In addition, we cover OS structures such as monolithic\nOS design, layered OS design, hardware abstraction layer (HAL), and microkernels.\nOS Components\nOS is a complex system that is typically created using the divide and conquer mechanism. That is, the",
+        "metadata": {
+          "section_title": "Fundamental OS Concepts",
+          "section": "6.2",
+          "chars": 3302,
+          "chunk_chars": 500,
+          "chapter_title": "Operating Systems",
+          "page_id": "openstax-ics-web:p257",
+          "chunk_index": 0,
+          "printed_page": 247,
+          "chapter": 6
+        },
+        "score": 0.40372384490554597,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p263:6",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 263,
+        "text": "SA 4.0 license)\nLayered OS Design\nOne alternative way to achieve monolithic OS design is the layered OS architecture, which consists of\nimplementing the OS as a set of layers where each layer exposes an enhanced “virtual machine” to the layer\nabove, as illustrated in Figure 6.12.\n6.2 • Fundamental OS Concepts 253",
+        "metadata": {
+          "chapter_title": "Operating Systems",
+          "chunk_index": 6,
+          "page_id": "openstax-ics-web:p263",
+          "printed_page": 253,
+          "chapter": 6,
+          "chars": 3314,
+          "section": "6.2",
+          "chunk_chars": 314,
+          "section_title": "Fundamental OS Concepts"
+        },
+        "score": 0.37284264183049987,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p257:1",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 257,
+        "text": " system is\ndivided into small pieces, each of which defines a part of the system. The OS component’s structure is static,\nand the OS and the hardware are tightly coupled together. The application programming interface (API) is a\nset of rules and tools that allows different software applications to communicate with each other. Applications\nmake requests to the OS through API. The user can, using a keyboard and/or mouse, interact with the OS\nthrough the OS interface. The OS interface could be a gr",
+        "metadata": {
+          "chapter": 6,
+          "printed_page": 247,
+          "page_id": "openstax-ics-web:p257",
+          "chapter_title": "Operating Systems",
+          "section_title": "Fundamental OS Concepts",
+          "chunk_index": 1,
+          "chunk_chars": 500,
+          "chars": 3302,
+          "section": "6.2"
+        },
+        "score": 0.3569779917390845,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-ics-web:p257:0 | Introduction_To_Computer_Science_-_WEB.pdf | page 257]\nthe computer. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nIn this module, we study OS components such as process management and threads, memory and address\nspace management, and device drivers and I/O devices. In addition, we cover OS structures such as monolithic\nOS design, layered OS design, hardware abstraction layer (HAL), and microkernels.\nOS Components\nOS is a complex system that is typically created using the divide and conquer mechanism. That is, the",
+    "context_ids": [
+      "openstax-ics-web:p257:0"
+    ],
+    "context_chars": 582,
+    "elapsed_ms": 0.2901999978348613,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "OS dùng kỹ thuật gì để cách ly các chương trình, giúp chúng không ghi đè dữ liệu hay làm hỏng file của nhau?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-ics-web",
+        "page": 214,
+        "evidence": "The technique that the OS uses to isolate different programs from each other so that they do not overwrite\neach other’s data or corrupt each other’s files is called virtual memory.",
+        "note": "verbatim-window-from-chunk"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-ics-web:p284:2",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 284,
+        "text": " resource to see how you could help your\noperating system (https://openstax.org/r/76WindowsOS) operate better.\n6.5 File Systems\nLearning Objectives\nBy the end of this section, you will be able to:\n• Explain features of various file systems\n• Discuss file system structures and layers\nIn this module, we learn about files, file management, disk devices, file systems, file system interface, and\ndistributed file systems.\nFiles, File Systems, Directories, and File Management\nA file is a collection of ",
+        "metadata": {
+          "chunk_index": 2,
+          "section": "6.5",
+          "chapter": 6,
+          "chapter_title": "Operating Systems",
+          "chars": 3393,
+          "printed_page": 274,
+          "section_title": "File Systems",
+          "chunk_chars": 500,
+          "page_id": "openstax-ics-web:p284"
+        },
+        "score": 0.5259833486081318,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p285:5",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 285,
+        "text": "hat the OS follows to read the entire file. In New Technology File System (NTFS), files are located using a\nMaster File Table (MFT), and each file and directory on an NTFS volume has an entry in the MFT containing\ndata, including the file name, size, time stamps, permissions, and the locations of the file’s data on disk.\nWhen searching for a file, the OS consults the MFT to find the entry corresponding to the file name, which\nthen provides the information necessary to access the file’s data.\nAs ",
+        "metadata": {
+          "chunk_index": 5,
+          "section": "6.5",
+          "chars": 3974,
+          "chapter_title": "Operating Systems",
+          "chapter": 6,
+          "printed_page": 275,
+          "section_title": "File Systems",
+          "page_id": "openstax-ics-web:p285",
+          "chunk_chars": 500
+        },
+        "score": 0.47867566200912043,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p286:2",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 286,
+        "text": " and start reading from where the reading pointer is pointing to.\n• Seek: Search for the specific byte position in the file.\n• Delete: Search for the file in the directory and erase the file from the directory.\n• Truncate: Reset the file length to zero and release the allocated space for the file.\n• Append: Add new information to the end of the file.\n• Copy: Create a new file and read the data from an old file, then write it to the new one.\nIf multiple processes are trying to open a file at the ",
+        "metadata": {
+          "chapter": 6,
+          "chunk_index": 2,
+          "page_id": "openstax-ics-web:p286",
+          "printed_page": 276,
+          "section_title": "File Systems",
+          "chapter_title": "Operating Systems",
+          "section": "6.5",
+          "chunk_chars": 500,
+          "chars": 3062
+        },
+        "score": 0.42332964626156655,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-ics-web:p284:2 | Introduction_To_Computer_Science_-_WEB.pdf | page 284]\n resource to see how you could help your\noperating system (https://openstax.org/r/76WindowsOS) operate better.\n6.5 File Systems\nLearning Objectives\nBy the end of this section, you will be able to:\n• Explain features of various file systems\n• Discuss file system structures and layers\nIn this module, we learn about files, file management, disk devices, file systems, file system interface, and\ndistributed file systems.\nFiles, File Systems, Directories, and File Management\nA file is a collection of ",
+    "context_ids": [
+      "openstax-ics-web:p284:2"
+    ],
+    "context_chars": 582,
+    "elapsed_ms": 0.33900000562425703,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "Trong chương 5, công nghệ bộ nhớ nào được dùng làm cache memory và nó có đặc điểm gì?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-ics-web",
+        "page": 229,
+        "evidence": "Static random access memory (SRAM)\nCache memory\n• Volatile\n• Very fast\n• Expensive\n• Small in size (from few KB to few MB)\nTechnology 2 Dynamic random access memory (DRAM)\nMain memory\n• Volatile\n• Fast\n• Less expensive\n• Average in size (1GB to 128GB)\nTable 5.3 Technologies Used for Storage in a Typical Computer System\n5.5 • Memory Hierarchy 219",
+        "note": "verbatim-window-from-chunk"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-ics-web:p232:3",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 232,
+        "text": "), but the latter is not. Your laptop has 32GB of\nRAM, which is the size of the DRAM, but you may not know how much cache your processor has. However, if\nyou know how the cache works, you can write more efficient programs as we learn when we talk about locality.\nIn Figure 5.23, SRAM is more commonly referred to as cache memory, which is the memory that allows for\nhigh-speed retrieval of data. Let us see how the cache and the DRAM memory work together. From now on,\nwhenever we say cache we mean t",
+        "metadata": {
+          "chapter_title": "Computer Systems Organization",
+          "chunk_chars": 500,
+          "chars": 3214,
+          "section_title": "Memory Hierarchy",
+          "chunk_index": 3,
+          "section": "5.5",
+          "printed_page": 222,
+          "page_id": "openstax-ics-web:p232",
+          "chapter": 5
+        },
+        "score": 0.46493284955531494,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p235:0",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 235,
+        "text": "Figure 5.25 Most processors now have three levels of cache memory. (attribution: Copyright Rice University, OpenStax, under CC BY\nNC-SA 4.0 license)\nLocality\nThroughout our discussion of the memory hierarchy, we have determined the following:\n• Memory is read in a chunk of consecutive 64 bits which is 8 bytes.\n• Whenever there is a cache miss, the cache works to bring a cache block, not the few bytes the processor\nneeds. Most caches now have a cache block of 64 bytes. Those 64 bytes are consecut",
+        "metadata": {
+          "section": "5.5",
+          "chars": 1829,
+          "chunk_chars": 500,
+          "printed_page": 225,
+          "chapter_title": "Computer Systems Organization",
+          "chunk_index": 0,
+          "chapter": 5,
+          "page_id": "openstax-ics-web:p235",
+          "section_title": "Memory Hierarchy"
+        },
+        "score": 0.4436956038294032,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p232:4",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 232,
+        "text": "he SRAM, and whenever we say memory, we mean the DRAM.\nSuppose the processor executes a program that accesses array A consecutively. The processor starts with A[0]\nand asks the cache memory whether it has A[0]. Initially the cache is empty, so it does not have the needed\ndata which is called a cache miss. The cache then gets the data from the memory. But instead of just getting\nA[0], it gets A[0], A[1], A[2], ..., A[x]. The number of extra elements the cache brings depends on the design of\nthe c",
+        "metadata": {
+          "chapter_title": "Computer Systems Organization",
+          "chunk_chars": 500,
+          "section": "5.5",
+          "chunk_index": 4,
+          "chars": 3214,
+          "section_title": "Memory Hierarchy",
+          "chapter": 5,
+          "page_id": "openstax-ics-web:p232",
+          "printed_page": 222
+        },
+        "score": 0.426788136039311,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-ics-web:p232:3 | Introduction_To_Computer_Science_-_WEB.pdf | page 232]\n), but the latter is not. Your laptop has 32GB of\nRAM, which is the size of the DRAM, but you may not know how much cache your processor has. However, if\nyou know how the cache works, you can write more efficient programs as we learn when we talk about locality.\nIn Figure 5.23, SRAM is more commonly referred to as cache memory, which is the memory that allows for\nhigh-speed retrieval of data. Let us see how the cache and the DRAM memory work together. From now on,\nwhenever we say cache we mean t",
+    "context_ids": [
+      "openstax-ics-web:p232:3"
+    ],
+    "context_chars": 582,
+    "elapsed_ms": 0.45960000716149807,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Trong mục 5.5, SRAM còn được gọi là gì và nhờ đó nó có tác dụng gì?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-ics-web",
+        "page": 232,
+        "evidence": "In Figure 5.23, SRAM is more commonly referred to as cache memory, which is the memory that allows for\nhigh-speed retrieval of data.",
+        "note": "verbatim-window-from-chunk"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-ics-web:p231:3",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 231,
+        "text": "very instruction and every\npiece of data, the overall system performance is very low; therefore, computer designers speed things up by\nusing a faster technology together with the DRAM. This faster technology, technology 1 in Figure 5.20 is called\nthe SRAM.\n5.5 • Memory Hierarchy 221",
+        "metadata": {
+          "chapter_title": "Computer Systems Organization",
+          "page_id": "openstax-ics-web:p231",
+          "chars": 1783,
+          "chunk_chars": 283,
+          "section": "5.5",
+          "chapter": 5,
+          "printed_page": 221,
+          "section_title": "Memory Hierarchy",
+          "chunk_index": 3
+        },
+        "score": 0.331104576652228,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p229:3",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 229,
+        "text": "echnology 1 Static random access memory (SRAM)\nCache memory\n• Volatile\n• Very fast\n• Expensive\n• Small in size (from few KB to few MB)\nTechnology 2 Dynamic random access memory (DRAM)\nMain memory\n• Volatile\n• Fast\n• Less expensive\n• Average in size (1GB to 128GB)\nTable 5.3 Technologies Used for Storage in a Typical Computer System\n5.5 • Memory Hierarchy 219",
+        "metadata": {
+          "section_title": "Memory Hierarchy",
+          "section": "5.5",
+          "page_id": "openstax-ics-web:p229",
+          "chunk_chars": 359,
+          "printed_page": 219,
+          "chars": 1859,
+          "chapter": 5,
+          "chunk_index": 3,
+          "chapter_title": "Computer Systems Organization"
+        },
+        "score": 0.24277810265808752,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p232:2",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 232,
+        "text": " the processor from one side and to the DRAM off-chip from the\nother side, as shown in Figure 5.23. The DRAM is in the range of 8–64GB, while the SRAM starts from the KB\nrange to a few MBs.\nFigure 5.23 SRAM was introduced to overcome the slow speed of DRAM. (attribution: Copyright Rice University, OpenStax, under CC\nBY NC-SA 4.0 license)\nOne important distinction between the cache memory and the DRAM is that the former is programmer-\ntransparent (i.e., its use cannot be managed by the programmer",
+        "metadata": {
+          "page_id": "openstax-ics-web:p232",
+          "chapter": 5,
+          "section_title": "Memory Hierarchy",
+          "chunk_index": 2,
+          "section": "5.5",
+          "chunk_chars": 500,
+          "printed_page": 222,
+          "chars": 3214,
+          "chapter_title": "Computer Systems Organization"
+        },
+        "score": 0.23891885725276377,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-ics-web:p231:3 | Introduction_To_Computer_Science_-_WEB.pdf | page 231]\nvery instruction and every\npiece of data, the overall system performance is very low; therefore, computer designers speed things up by\nusing a faster technology together with the DRAM. This faster technology, technology 1 in Figure 5.20 is called\nthe SRAM.\n5.5 • Memory Hierarchy 221",
+    "context_ids": [
+      "openstax-ics-web:p231:3"
+    ],
+    "context_chars": 365,
+    "elapsed_ms": 0.3117000014754012,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "DRAM (bộ nhớ chính) có các đặc điểm nào so với kích thước theo bảng công nghệ lưu trữ?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-ics-web",
+        "page": 229,
+        "evidence": "Dynamic random access memory (DRAM)\nMain memory\n• Volatile\n• Fast\n• Less expensive\n• Average in size (1GB to 128GB)\nTable 5.",
+        "note": "verbatim-window-from-chunk"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-ics-web:p232:2",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 232,
+        "text": " the processor from one side and to the DRAM off-chip from the\nother side, as shown in Figure 5.23. The DRAM is in the range of 8–64GB, while the SRAM starts from the KB\nrange to a few MBs.\nFigure 5.23 SRAM was introduced to overcome the slow speed of DRAM. (attribution: Copyright Rice University, OpenStax, under CC\nBY NC-SA 4.0 license)\nOne important distinction between the cache memory and the DRAM is that the former is programmer-\ntransparent (i.e., its use cannot be managed by the programmer",
+        "metadata": {
+          "page_id": "openstax-ics-web:p232",
+          "chapter": 5,
+          "section_title": "Memory Hierarchy",
+          "chunk_index": 2,
+          "section": "5.5",
+          "chunk_chars": 500,
+          "printed_page": 222,
+          "chars": 3214,
+          "chapter_title": "Computer Systems Organization"
+        },
+        "score": 0.32068115672537983,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p232:1",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 232,
+        "text": "puter’s memory for\nas long as the machine is powered on. This means it does not need a refresh like the DRAM and is designed\nwith a faster technology than DRAM. However, SRAMs are bigger in area; a single bit requires a large area in\nthe chip as it needs four to six transistors, which is much larger than the capacitor in DRAM. Moreover, inside\nthe chip we do not have a lot of space due to the existence of the processor itself. So, SRAM is a small, fast\nmemory inside the chip that is connected to",
+        "metadata": {
+          "chars": 3214,
+          "printed_page": 222,
+          "page_id": "openstax-ics-web:p232",
+          "chunk_chars": 500,
+          "section_title": "Memory Hierarchy",
+          "chapter": 5,
+          "chunk_index": 1,
+          "chapter_title": "Computer Systems Organization",
+          "section": "5.5"
+        },
+        "score": 0.2878548887056903,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p283:3",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 283,
+        "text": "ge replacement, one page in the (full) DRAM is swapped to disk while the\nrequested page is brought into DRAM. However, if too many processes need access to a lot of memory back\nand forth between DRAM and disk, this causes problems. For example, each page fault causes one of the\nactive pages to be moved to disk, so another page fault soon occurs, and this leads to thrashing. Thrashing is\nwhen a computer’s operating system becomes overwhelmed by the number of processes requesting memory.\nThis situ",
+        "metadata": {
+          "chapter": 6,
+          "chunk_chars": 500,
+          "section": "6.4",
+          "printed_page": 273,
+          "section_title": "Memory Management",
+          "chars": 2941,
+          "chunk_index": 3,
+          "chapter_title": "Operating Systems",
+          "page_id": "openstax-ics-web:p283"
+        },
+        "score": 0.27113778308935543,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-ics-web:p232:2 | Introduction_To_Computer_Science_-_WEB.pdf | page 232]\n the processor from one side and to the DRAM off-chip from the\nother side, as shown in Figure 5.23. The DRAM is in the range of 8–64GB, while the SRAM starts from the KB\nrange to a few MBs.\nFigure 5.23 SRAM was introduced to overcome the slow speed of DRAM. (attribution: Copyright Rice University, OpenStax, under CC\nBY NC-SA 4.0 license)\nOne important distinction between the cache memory and the DRAM is that the former is programmer-\ntransparent (i.e., its use cannot be managed by the programmer",
+    "context_ids": [
+      "openstax-ics-web:p232:2"
+    ],
+    "context_chars": 582,
+    "elapsed_ms": 0.30780000088270754,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Khi lệnh thứ nhất vừa được xử lý đến giai đoạn issue, các giai đoạn fetch/decode của pipeline đang làm gì, và điều này tạo ra hình thức song song nào?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-ics-web",
+        "page": 237,
+        "evidence": "By the time the decode phase is done with instruction 1 and hands it to the\nissue phase, the fetch phase hands to it instruction 2 and starts fetching instruction 3, which is a form of\nparallelism.",
+        "note": "verbatim-window-from-chunk"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-ics-web:p237:3",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 237,
+        "text": "econd, once the fetch phase\nfinishes fetching the first instruction and hands it to the decode phase, the fetch phase hardware is now free\nto fetch the second instruction. By the time the decode phase is done with instruction 1 and hands it to the\nissue phase, the fetch phase hands to it instruction 2 and starts fetching instruction 3, which is a form of\nparallelism.\n5.6 • Processor Architectures 227",
+        "metadata": {
+          "printed_page": 227,
+          "chapter": 5,
+          "section_title": "Processor Architectures",
+          "chapter_title": "Computer Systems Organization",
+          "chars": 1903,
+          "chunk_index": 3,
+          "section": "5.6",
+          "chunk_chars": 403,
+          "page_id": "openstax-ics-web:p237"
+        },
+        "score": 0.19218146694024052,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-ics-web:p204:3",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 204,
+        "text": " song relate to one another?\nLet us start with the second part of that question: the relationship between computation and executing a\nprogram. A song that has been digitized for storage is actually a bunch of numbers that the computer reads; it\nproduces sound based on those numbers. The computer must calculate (i.e., compute) the frequency and\nvolume of the sound based on the numbers read. Another example is when you open a browser and type the\naddress of a website. The computer reads what you t",
+        "metadata": {
+          "page_id": "openstax-ics-web:p204",
+          "section_title": "Computer Systems Organization",
+          "printed_page": 194,
+          "chars": 3417,
+          "chapter_title": "Computer Systems Organization",
+          "chunk_index": 3,
+          "chapter": 5,
+          "section": "5.1",
+          "chunk_chars": 500
+        },
+        "score": 0.18888597030415924,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p238:0",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 238,
+        "text": "If we take a snapshot of the pipeline during the execution of the program, we find different pipeline phases\nworking on different instructions. We call this type of parallelism temporal parallelism. The benefit is that this\nparallelism—or better performance—is done with no involvement from the programmer. The hardware is\ndoing it for you.\nWith more and more transistors available, designers move to executing several instructions at the same time,\nwhich means that several execution units are neede",
+        "metadata": {
+          "chapter_title": "Computer Systems Organization",
+          "chunk_index": 0,
+          "section_title": "Processor Architectures",
+          "section": "5.6",
+          "chars": 3822,
+          "page_id": "openstax-ics-web:p238",
+          "chapter": 5,
+          "printed_page": 228,
+          "chunk_chars": 500
+        },
+        "score": 0.12362529051807228,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-ics-web:p237:3 | Introduction_To_Computer_Science_-_WEB.pdf | page 237]\necond, once the fetch phase\nfinishes fetching the first instruction and hands it to the decode phase, the fetch phase hardware is now free\nto fetch the second instruction. By the time the decode phase is done with instruction 1 and hands it to the\nissue phase, the fetch phase hands to it instruction 2 and starts fetching instruction 3, which is a form of\nparallelism.\n5.6 • Processor Architectures 227",
+    "context_ids": [
+      "openstax-ics-web:p237:3"
+    ],
+    "context_chars": 485,
+    "elapsed_ms": 0.4490999999688938,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Vì sao việc tăng số transistor trong bộ vi xử lý lại được kỳ vọng cải thiện hiệu năng?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-ics-web",
+        "page": 236,
+        "evidence": "Since transistors are the building\nblocks of logic gates, and logic gates are the building blocks of pie",
+        "note": "verbatim-window-from-chunk"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-ics-web:p213:3",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 213,
+        "text": "st of the time only a subset of them,\nyou can design all the pieces that form the processor discussed earlier. But what is inside these gates? How are\nthey built?\nThe Lowest Level of Abstraction\nThe main building block of all logic gates, and hence of all processors, is the transistor. This is shown at the\nbottom of Figure 5.5 as device level. Though you may have heard the word transistor before, you may not\nknow exactly what it does. Simply speaking, a transistor is an on and off switch. This i",
+        "metadata": {
+          "chapter": 5,
+          "chunk_index": 3,
+          "chars": 3535,
+          "chapter_title": "Computer Systems Organization",
+          "page_id": "openstax-ics-web:p213",
+          "section_title": "Computer Levels of Abstraction",
+          "chunk_chars": 500,
+          "section": "5.2",
+          "printed_page": 203
+        },
+        "score": 0.26426797506021704,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p213:4",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 213,
+        "text": "s very similar to the light\nswitch in your house that can turn a light on or off. A transistor lets an electrical current pass, the ON state, or\ncan block the electrical current, the OFF state. Transistors are turned ON/OFF based on the voltage input to the\ntransistor. If the voltage is higher than a threshold, the transistor is in the ON state. Otherwise, it is in the OFF\nstate. There are only two states: ON/OFF, which correspond to 1 and 0. This is why computers understand only\n1s and 0s. By i",
+        "metadata": {
+          "section_title": "Computer Levels of Abstraction",
+          "chapter_title": "Computer Systems Organization",
+          "chars": 3535,
+          "chunk_index": 4,
+          "section": "5.2",
+          "chunk_chars": 500,
+          "chapter": 5,
+          "page_id": "openstax-ics-web:p213",
+          "printed_page": 203
+        },
+        "score": 0.20953088686745483,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p212:4",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 212,
+        "text": " at the main components of a processor.\nLINK TO LEARNING\nThe transistor is the building block of the hardware of any computer. A transistor is merely an on/off switch;\nwhen it is on, it lets the electrical current pass. When it is off, it blocks the electrical current. This is very\nsimilar to the light switch you find in your room. But with these transistors, we can do more: with\ntransistors, we build computers. Read this article to learn more about transistors (https://openstax.org/r/\n76Transis",
+        "metadata": {
+          "chunk_chars": 500,
+          "section_title": "Computer Levels of Abstraction",
+          "section": "5.2",
+          "page_id": "openstax-ics-web:p212",
+          "chars": 2625,
+          "chunk_index": 4,
+          "printed_page": 202,
+          "chapter_title": "Computer Systems Organization",
+          "chapter": 5
+        },
+        "score": 0.17784823671048838,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-ics-web:p213:3 | Introduction_To_Computer_Science_-_WEB.pdf | page 213]\nst of the time only a subset of them,\nyou can design all the pieces that form the processor discussed earlier. But what is inside these gates? How are\nthey built?\nThe Lowest Level of Abstraction\nThe main building block of all logic gates, and hence of all processors, is the transistor. This is shown at the\nbottom of Figure 5.5 as device level. Though you may have heard the word transistor before, you may not\nknow exactly what it does. Simply speaking, a transistor is an on and off switch. This i",
+    "context_ids": [
+      "openstax-ics-web:p213:3"
+    ],
+    "context_chars": 582,
+    "elapsed_ms": 0.262700006715022,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "Đâu là 3 bước chính trong pipeline xử lý lệnh (từ bộ nhớ đến đơn vị thực thi)?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-ics-web",
+        "page": 237,
+        "evidence": "It fetches an instruction from memory, decodes this instruction to\nknow what needs to be done, and issues the instruction to the correct execution units (e.",
+        "note": "verbatim-window-from-chunk"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-ics-web:p238:0",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 238,
+        "text": "If we take a snapshot of the pipeline during the execution of the program, we find different pipeline phases\nworking on different instructions. We call this type of parallelism temporal parallelism. The benefit is that this\nparallelism—or better performance—is done with no involvement from the programmer. The hardware is\ndoing it for you.\nWith more and more transistors available, designers move to executing several instructions at the same time,\nwhich means that several execution units are neede",
+        "metadata": {
+          "chapter_title": "Computer Systems Organization",
+          "chunk_index": 0,
+          "section_title": "Processor Architectures",
+          "section": "5.6",
+          "chars": 3822,
+          "page_id": "openstax-ics-web:p238",
+          "chapter": 5,
+          "printed_page": 228,
+          "chunk_chars": 500
+        },
+        "score": 0.2914286514183207,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p215:5",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 215,
+        "text": "d more about how to do it manually.\n5.3 • Machine-Level Information Representation 205",
+        "metadata": {
+          "chapter": 5,
+          "chars": 2586,
+          "chapter_title": "Computer Systems Organization",
+          "chunk_index": 5,
+          "printed_page": 205,
+          "section": "5.3",
+          "section_title": "Machine-Level Information Representation",
+          "page_id": "openstax-ics-web:p215",
+          "chunk_chars": 86
+        },
+        "score": 0.11255955844948776,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p271:6",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 271,
+        "text": "strates single and multithreaded processes.\n6.3 • Processes and Concurrency 261",
+        "metadata": {
+          "page_id": "openstax-ics-web:p271",
+          "chunk_chars": 79,
+          "section": "6.3",
+          "chunk_index": 6,
+          "printed_page": 261,
+          "chapter": 6,
+          "chapter_title": "Operating Systems",
+          "section_title": "Processes and Concurrency",
+          "chars": 3079
+        },
+        "score": 0.11111832184439974,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-ics-web:p238:0 | Introduction_To_Computer_Science_-_WEB.pdf | page 238]\nIf we take a snapshot of the pipeline during the execution of the program, we find different pipeline phases\nworking on different instructions. We call this type of parallelism temporal parallelism. The benefit is that this\nparallelism—or better performance—is done with no involvement from the programmer. The hardware is\ndoing it for you.\nWith more and more transistors available, designers move to executing several instructions at the same time,\nwhich means that several execution units are neede\n\n[openstax-ics-web:p215:5 | Introduction_To_Computer_Science_-_WEB.pdf | page 215]\nd more about how to do it manually.\n5.3 • Machine-Level Information Representation 205",
+    "context_ids": [
+      "openstax-ics-web:p238:0",
+      "openstax-ics-web:p215:5"
+    ],
+    "context_chars": 752,
+    "elapsed_ms": 0.2707000094233081,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "Process trong hệ điều hành được định nghĩa như thế nào?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-ics-web",
+        "page": 267,
+        "evidence": "a process is a fundamental concept in an OS that represents an instance of a program in execution."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-ics-web:p271:1",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 271,
+        "text": "programs, and threads enable programs to\nperform multiple things at once. A process is an instance of a program that is being executed by an OS. Each\nprocess has its own memory space and resources. The OS creates a new process for every executed program\nand allocates the required resources for the process. For example, it allocates a specific size of memory and\nCPU time. The process may have one or more threads, each thread has its own context, but all of the threads\nwithin a process share the s",
+        "metadata": {
+          "chars": 3079,
+          "chunk_index": 1,
+          "section_title": "Processes and Concurrency",
+          "page_id": "openstax-ics-web:p271",
+          "section": "6.3",
+          "chunk_chars": 500,
+          "chapter": 6,
+          "printed_page": 261,
+          "chapter_title": "Operating Systems"
+        },
+        "score": 0.396973298629055,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p269:0",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 269,
+        "text": "data structure called the process control block (PCB) or process descriptor to keep track of a process state\nand to store all of the information identified by the PID about a process. As illustrated in Figure 6.16, the PCB\ncontains information that serves as metadata for the process such as PID, process state, parent process ID\n(PPID), execution state, PC, SP, registers, address space info, and user id (uid).\nFigure 6.16 PCB are data structures that an OS uses to store detailed attributes for ea",
+        "metadata": {
+          "chapter_title": "Operating Systems",
+          "chunk_chars": 500,
+          "section_title": "Processes and Concurrency",
+          "printed_page": 259,
+          "chapter": 6,
+          "chunk_index": 0,
+          "page_id": "openstax-ics-web:p269",
+          "section": "6.3",
+          "chars": 1737
+        },
+        "score": 0.39114361160743605,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p275:5",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 275,
+        "text": "finish printing at Time 2. While process P1 is\nprinting, process P2 is attempting to print, but the OS will block process P2 from printing until process P1\nreaches Time 2.\nFigure 6.24 Process P1 is using the printer starting from Time 1 and will finish printing at Time 2. Process P2 is trying to print while\nprocess P1 is printing. The OS will use mutual exclusion to prevent process P2 from starting until process P1 has ended. (attribution:\n6.3 • Processes and Concurrency 265",
+        "metadata": {
+          "chapter_title": "Operating Systems",
+          "chars": 2979,
+          "chunk_chars": 479,
+          "section_title": "Processes and Concurrency",
+          "chunk_index": 5,
+          "chapter": 6,
+          "page_id": "openstax-ics-web:p275",
+          "section": "6.3",
+          "printed_page": 265
+        },
+        "score": 0.38848913095527815,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-ics-web:p271:1 | Introduction_To_Computer_Science_-_WEB.pdf | page 271]\nprograms, and threads enable programs to\nperform multiple things at once. A process is an instance of a program that is being executed by an OS. Each\nprocess has its own memory space and resources. The OS creates a new process for every executed program\nand allocates the required resources for the process. For example, it allocates a specific size of memory and\nCPU time. The process may have one or more threads, each thread has its own context, but all of the threads\nwithin a process share the s",
+    "context_ids": [
+      "openstax-ics-web:p271:1"
+    ],
+    "context_chars": 582,
+    "elapsed_ms": 0.27299999783281237,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Một process bao gồm ít nhất những thành phần nào?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-ics-web",
+        "page": 268,
+        "evidence": "A process consists of at least an address space, a CPU state, and a set of OS resources."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-ics-web:p271:1",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 271,
+        "text": "programs, and threads enable programs to\nperform multiple things at once. A process is an instance of a program that is being executed by an OS. Each\nprocess has its own memory space and resources. The OS creates a new process for every executed program\nand allocates the required resources for the process. For example, it allocates a specific size of memory and\nCPU time. The process may have one or more threads, each thread has its own context, but all of the threads\nwithin a process share the s",
+        "metadata": {
+          "chars": 3079,
+          "chunk_index": 1,
+          "section_title": "Processes and Concurrency",
+          "page_id": "openstax-ics-web:p271",
+          "section": "6.3",
+          "chunk_chars": 500,
+          "chapter": 6,
+          "printed_page": 261,
+          "chapter_title": "Operating Systems"
+        },
+        "score": 0.396973298629055,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p269:0",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 269,
+        "text": "data structure called the process control block (PCB) or process descriptor to keep track of a process state\nand to store all of the information identified by the PID about a process. As illustrated in Figure 6.16, the PCB\ncontains information that serves as metadata for the process such as PID, process state, parent process ID\n(PPID), execution state, PC, SP, registers, address space info, and user id (uid).\nFigure 6.16 PCB are data structures that an OS uses to store detailed attributes for ea",
+        "metadata": {
+          "chapter_title": "Operating Systems",
+          "chunk_chars": 500,
+          "section_title": "Processes and Concurrency",
+          "printed_page": 259,
+          "chapter": 6,
+          "chunk_index": 0,
+          "page_id": "openstax-ics-web:p269",
+          "section": "6.3",
+          "chars": 1737
+        },
+        "score": 0.39114361160743605,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p275:5",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 275,
+        "text": "finish printing at Time 2. While process P1 is\nprinting, process P2 is attempting to print, but the OS will block process P2 from printing until process P1\nreaches Time 2.\nFigure 6.24 Process P1 is using the printer starting from Time 1 and will finish printing at Time 2. Process P2 is trying to print while\nprocess P1 is printing. The OS will use mutual exclusion to prevent process P2 from starting until process P1 has ended. (attribution:\n6.3 • Processes and Concurrency 265",
+        "metadata": {
+          "chapter_title": "Operating Systems",
+          "chars": 2979,
+          "chunk_chars": 479,
+          "section_title": "Processes and Concurrency",
+          "chunk_index": 5,
+          "chapter": 6,
+          "page_id": "openstax-ics-web:p275",
+          "section": "6.3",
+          "printed_page": 265
+        },
+        "score": 0.38848913095527815,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-ics-web:p271:1 | Introduction_To_Computer_Science_-_WEB.pdf | page 271]\nprograms, and threads enable programs to\nperform multiple things at once. A process is an instance of a program that is being executed by an OS. Each\nprocess has its own memory space and resources. The OS creates a new process for every executed program\nand allocates the required resources for the process. For example, it allocates a specific size of memory and\nCPU time. The process may have one or more threads, each thread has its own context, but all of the threads\nwithin a process share the s",
+    "context_ids": [
+      "openstax-ics-web:p271:1"
+    ],
+    "context_chars": 582,
+    "elapsed_ms": 0.2516999957151711,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "Paging là cơ chế lưu trữ như thế nào trong quản trị bộ nhớ?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-ics-web",
+        "page": 282,
+        "evidence": "The storage mechanism that uses a page form in retrieving a process from secondary or virtual memory to\nmain memory is called paging.",
+        "note": "verbatim-window-from-chunk"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-ics-web:p282:1",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 282,
+        "text": "stax.org/r/76virtmem) to investigate this\nquestion.\nDemand Paging\nThe storage mechanism that uses a page form in retrieving a process from secondary or virtual memory to\nmain memory is called paging. Virtual memory presented a seemingly infinite amount of memory to the\nrunning process, but what happens when the operating system runs out of free physical memory? Modern\noperating systems also have a backup when DRAM runs out, which means virtual memory can be mapped to\ndisk to meet demand. The sto",
+        "metadata": {
+          "chunk_chars": 500,
+          "section": "6.4",
+          "page_id": "openstax-ics-web:p282",
+          "chapter_title": "Operating Systems",
+          "chars": 1880,
+          "printed_page": 272,
+          "section_title": "Memory Management",
+          "chapter": 6,
+          "chunk_index": 1
+        },
+        "score": 0.24059550236985958,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-ics-web:p293:0",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 293,
+        "text": "2 MB/sec to 200+ MB/sec, a 100-fold increase. Network speeds went from 10 Mb/sec to 10+ Gb/sec, a\n1,000-fold increase. As you can see, there were huge increases in size, speed, and other capabilities.\nAs you may recall, paging is a storage mechanism that allows processes to be retrieved from secondary\nmemory and moved to main memory using pages. In the 1960s, paging originally touted disk speed latency of\n80 ms, a data transfer rate of 250 KBs/sec, memory size of 256 Kbytes. Thus, for 64 pages, ",
+        "metadata": {
+          "chunk_chars": 500,
+          "chapter": 6,
+          "printed_page": 283,
+          "section_title": "Reliability and Security",
+          "section": "6.6",
+          "chars": 4097,
+          "page_id": "openstax-ics-web:p293",
+          "chapter_title": "Operating Systems",
+          "chunk_index": 0
+        },
+        "score": 0.1785425895998742,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p282:3",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 282,
+        "text": "accesses. WSS is measured by tracking the unique pages a process references over a fixed interval of time. This\nprovides an estimate of the process’s active memory footprint and helps in memory management decisions\nlike paging and swapping to optimize performance and resource allocation.\n272 6 • Infrastructure Abstraction Layer: Operating Systems\nAccess for free at openstax.org",
+        "metadata": {
+          "chars": 1880,
+          "section_title": "Memory Management",
+          "page_id": "openstax-ics-web:p282",
+          "chapter": 6,
+          "chunk_chars": 380,
+          "chunk_index": 3,
+          "chapter_title": "Operating Systems",
+          "section": "6.4",
+          "printed_page": 272
+        },
+        "score": 0.159593546551541,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-ics-web:p282:1 | Introduction_To_Computer_Science_-_WEB.pdf | page 282]\nstax.org/r/76virtmem) to investigate this\nquestion.\nDemand Paging\nThe storage mechanism that uses a page form in retrieving a process from secondary or virtual memory to\nmain memory is called paging. Virtual memory presented a seemingly infinite amount of memory to the\nrunning process, but what happens when the operating system runs out of free physical memory? Modern\noperating systems also have a backup when DRAM runs out, which means virtual memory can be mapped to\ndisk to meet demand. The sto",
+    "context_ids": [
+      "openstax-ics-web:p282:1"
+    ],
+    "context_chars": 582,
+    "elapsed_ms": 0.20570000924635679,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "Theo chương 6, file system và thiết bị đĩa (disk device) khác nhau ở đâu về bản chất?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-ics-web",
+        "page": 285,
+        "evidence": "While file systems are a layer of abstraction that provides structured storage and defines logical objects such\nas files and directories, disk devices are considered raw storage.",
+        "note": "verbatim-window-from-chunk"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-ics-web:p284:2",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 284,
+        "text": " resource to see how you could help your\noperating system (https://openstax.org/r/76WindowsOS) operate better.\n6.5 File Systems\nLearning Objectives\nBy the end of this section, you will be able to:\n• Explain features of various file systems\n• Discuss file system structures and layers\nIn this module, we learn about files, file management, disk devices, file systems, file system interface, and\ndistributed file systems.\nFiles, File Systems, Directories, and File Management\nA file is a collection of ",
+        "metadata": {
+          "chunk_index": 2,
+          "section": "6.5",
+          "chapter": 6,
+          "chapter_title": "Operating Systems",
+          "chars": 3393,
+          "printed_page": 274,
+          "section_title": "File Systems",
+          "chunk_chars": 500,
+          "page_id": "openstax-ics-web:p284"
+        },
+        "score": 0.40679017578762383,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p261:3",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 261,
+        "text": "tocols and hardware\nfunctions of network interfaces.\nDevice Registers\nA device register is the interface a device presents to a programmer where each I/O device appears in the\nphysical address space of the machine as a memory address. The operating system reads and writes device\nregisters to control the device. There are three types of device registers: status, command, and data. The\nstatus register provides information about the current state of the device (e.g., read), the command register\niss",
+        "metadata": {
+          "chunk_chars": 500,
+          "printed_page": 251,
+          "chapter": 6,
+          "section": "6.2",
+          "section_title": "Fundamental OS Concepts",
+          "chars": 3654,
+          "chapter_title": "Operating Systems",
+          "page_id": "openstax-ics-web:p261",
+          "chunk_index": 3
+        },
+        "score": 0.378031473865766,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p261:4",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 261,
+        "text": "ues a command to the device (e.g., writing a value to the register), and the data register is used to transfer\ndata between the computer and the device. Device registers use bits to service three purposes: parameters\nprovided by the CPU to the device, status bits provided by the device, and control bits set by the CPU to initiate\noperations. Figure 6.8 provides an example of the content of each of a device register’s bits.\nFigure 6.8 Device register bits define the first sector to read, the stat",
+        "metadata": {
+          "chunk_chars": 500,
+          "chapter": 6,
+          "printed_page": 251,
+          "section": "6.2",
+          "chapter_title": "Operating Systems",
+          "page_id": "openstax-ics-web:p261",
+          "chars": 3654,
+          "chunk_index": 4,
+          "section_title": "Fundamental OS Concepts"
+        },
+        "score": 0.3304682386567303,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-ics-web:p284:2 | Introduction_To_Computer_Science_-_WEB.pdf | page 284]\n resource to see how you could help your\noperating system (https://openstax.org/r/76WindowsOS) operate better.\n6.5 File Systems\nLearning Objectives\nBy the end of this section, you will be able to:\n• Explain features of various file systems\n• Discuss file system structures and layers\nIn this module, we learn about files, file management, disk devices, file systems, file system interface, and\ndistributed file systems.\nFiles, File Systems, Directories, and File Management\nA file is a collection of ",
+    "context_ids": [
+      "openstax-ics-web:p284:2"
+    ],
+    "context_chars": 582,
+    "elapsed_ms": 0.5375000037020072,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "Security kernel là gì và nó được cấu thành từ những gì?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-ics-web",
+        "page": 291,
+        "evidence": "The security kernel is a substitute\napproach that is composed of hardware and software and serves as the OS’s inner protection layer.",
+        "note": "verbatim-window-from-chunk"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-ics-web:p291:1",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 291,
+        "text": "ll in size. The security kernel is a substitute\napproach that is composed of hardware and software and serves as the OS’s inner protection layer. Generally,\nany kind of management such as memory and interrupt management are provided by a security kernel.\nLINK TO LEARNING\nEvery once in a while, you may get a notification on your computer asking you to update your OS, and the\nupdate may include a “patch” to address a security issue. Often, this security issue is related to a\ncyberattack that is ex",
+        "metadata": {
+          "chars": 3667,
+          "section": "6.6",
+          "printed_page": 281,
+          "chunk_chars": 500,
+          "chapter_title": "Operating Systems",
+          "chunk_index": 1,
+          "chapter": 6,
+          "section_title": "Reliability and Security",
+          "page_id": "openstax-ics-web:p291"
+        },
+        "score": 0.39138050665275986,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-ics-web:p265:1",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 265,
+        "text": "vilege, and greater ease of extension\nand customization. However, performance is generally poor due to user and kernel boundary crossings, which\nrepresent a security risk when the kernel code operates on the data.\nThe first microkernel system was Hydra (CMU, 1970), followed by Mach (CMU), Chorus (French UNIX-like OS),\nand OS X (Apple). Windows OS used to use a microkernel, but now uses a hybrid kernel architecture that\ncombines the benefits of monolithic, microkernel, and plug-in OS architecture",
+        "metadata": {
+          "chunk_chars": 500,
+          "chunk_index": 1,
+          "chars": 1050,
+          "chapter": 6,
+          "section_title": "Fundamental OS Concepts",
+          "section": "6.2",
+          "page_id": "openstax-ics-web:p265",
+          "chapter_title": "Operating Systems",
+          "printed_page": 255
+        },
+        "score": 0.26873426427417313,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p277:6",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 277,
+        "text": "om colliding in physical memory due to unintended overlap (i.e., overlap\ncontrol). These technologies aim to, for example, prevent process P1 from spying on process P2. Or, if process\nP1 has a bug, they ensure that this bug does not impact process P2. There are many isolation mechanisms,\nincluding:\n• User/kernel mode flag is a register that represents the CPU mode as user mode or kernel mode. As we\nhave learned, the CPU boots in kernel mode, then it marks the flag as kernel mode. When the user s",
+        "metadata": {
+          "printed_page": 267,
+          "page_id": "openstax-ics-web:p277",
+          "chars": 3587,
+          "chunk_index": 6,
+          "chapter_title": "Operating Systems",
+          "section": "6.4",
+          "chunk_chars": 500,
+          "chapter": 6,
+          "section_title": "Memory Management"
+        },
+        "score": 0.24689497573478933,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-ics-web:p291:1 | Introduction_To_Computer_Science_-_WEB.pdf | page 291]\nll in size. The security kernel is a substitute\napproach that is composed of hardware and software and serves as the OS’s inner protection layer. Generally,\nany kind of management such as memory and interrupt management are provided by a security kernel.\nLINK TO LEARNING\nEvery once in a while, you may get a notification on your computer asking you to update your OS, and the\nupdate may include a “patch” to address a security issue. Often, this security issue is related to a\ncyberattack that is ex",
+    "context_ids": [
+      "openstax-ics-web:p291:1"
+    ],
+    "context_chars": 582,
+    "elapsed_ms": 0.2975999959744513,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "Khi OS thiếu bộ nhớ vật lý, quá trình đưa page vào bộ nhớ chính khi cần thiết được gọi là gì?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-ics-web",
+        "page": 282,
+        "evidence": "The storage mechanism that uses a page form in retrieving a process from secondary or virtual memory to\nmain memory is called paging.",
+        "note": "verbatim-window-from-chunk (Day 6 quote was paraphrase; replaced with actual sentence in same chunk)"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-ics-web:p283:2",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 283,
+        "text": "paging) is called page fetching. Most modern OSs use page fetching by starting the process with no\npages loaded and do not load a page into memory until it is referenced. If a requested page is stored on the\ndisk, prefetching, which is the act of trying to predict when pages will be needed and loading them ahead of\ntime to avoid page faults, is performed.\nIf all memory is in use, it is necessary to throw out one page each time there is a page fault. This process is\ncalled page replacement. In pa",
+        "metadata": {
+          "chars": 2941,
+          "chunk_chars": 500,
+          "page_id": "openstax-ics-web:p283",
+          "section": "6.4",
+          "section_title": "Memory Management",
+          "chapter_title": "Operating Systems",
+          "chapter": 6,
+          "chunk_index": 2,
+          "printed_page": 273
+        },
+        "score": 0.5875839341423316,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p281:6",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 281,
+        "text": " real address is formed. If a page table entry is not found in the TLB, then it’s a “miss.” In this case, the\npage number is used as an index while processing the page table. TLB checks if the page is already in the\nmemory; if it’s not, then a page fault is issued and the TLB is updated to include the new page entry.\n6.4 • Memory Management 271",
+        "metadata": {
+          "chars": 3346,
+          "chunk_chars": 346,
+          "section_title": "Memory Management",
+          "printed_page": 271,
+          "chunk_index": 6,
+          "chapter": 6,
+          "section": "6.4",
+          "chapter_title": "Operating Systems",
+          "page_id": "openstax-ics-web:p281"
+        },
+        "score": 0.5080507332239973,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p283:0",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 283,
+        "text": "Figure 6.32 In demand paging, a CPU retrieves pages from the virtual memory to the main memory and releases pages from the\nmain memory to the virtual memory. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nWhen the CPU demands a page and this page is not present in the main memory, we call this situation a page\nfault. A page fault occurs when a process references a page that is in the backing store. To handle a page\nfault, the CPU transfers control from the prog",
+        "metadata": {
+          "chars": 2941,
+          "chapter_title": "Operating Systems",
+          "chunk_index": 0,
+          "page_id": "openstax-ics-web:p283",
+          "section_title": "Memory Management",
+          "chapter": 6,
+          "section": "6.4",
+          "printed_page": 273,
+          "chunk_chars": 500
+        },
+        "score": 0.47539577649503195,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-ics-web:p283:2 | Introduction_To_Computer_Science_-_WEB.pdf | page 283]\npaging) is called page fetching. Most modern OSs use page fetching by starting the process with no\npages loaded and do not load a page into memory until it is referenced. If a requested page is stored on the\ndisk, prefetching, which is the act of trying to predict when pages will be needed and loading them ahead of\ntime to avoid page faults, is performed.\nIf all memory is in use, it is necessary to throw out one page each time there is a page fault. This process is\ncalled page replacement. In pa",
+    "context_ids": [
+      "openstax-ics-web:p283:2"
+    ],
+    "context_chars": 582,
+    "elapsed_ms": 0.32279999868478626,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q16",
+    "split": "dev",
+    "question": "Trong chương 6, các hệ điều hành phổ biến trên máy tính và trên thiết bị di động được nêu là gì?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-ics-web",
+        "page": 250,
+        "evidence": "The\ntypical OSs for computers are Windows, macOS, and Linux and for mobile devices, iOS and Android (Figure\n6.",
+        "note": "verbatim-window-from-chunk"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-ics-web:p249:0",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 249,
+        "text": "Figure 6.1 Operating systems operate on many computers and devices, which means that when they need an update (due to an\nerror or virus), all those systems need the same fix. (credit: modification of “Windows Blue Screen on room full of computers,” by\nGrj23/Wikimedia.com, CC0)\nChapter Outline\n6.1 What Is an Operating System?\n6.2 Fundamental OS Concepts\n6.3 Processes and Concurrency\n6.4 Memory Management\n6.5 File Systems\n6.6 Reliability and Security\nIntroduction\nTechWorks is a start-up company th",
+        "metadata": {
+          "printed_page": 239,
+          "chars": 2335,
+          "section_title": "Introduction",
+          "page_id": "openstax-ics-web:p249",
+          "chapter": 6,
+          "chunk_index": 0,
+          "chunk_chars": 500,
+          "section": "6.0",
+          "chapter_title": "Operating Systems"
+        },
+        "score": 0.4850400201934216,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p265:2",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 265,
+        "text": "s (Figure 6.14).\n6.2 • Fundamental OS Concepts 255",
+        "metadata": {
+          "chapter_title": "Operating Systems",
+          "chunk_chars": 50,
+          "chapter": 6,
+          "page_id": "openstax-ics-web:p265",
+          "chunk_index": 2,
+          "section_title": "Fundamental OS Concepts",
+          "section": "6.2",
+          "printed_page": 255,
+          "chars": 1050
+        },
+        "score": 0.39424135779532965,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p291:7",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 291,
+        "text": " size is big. Figure 6.37 illustrates an example of the code errors produced from fsck\nand the meaning of each code in the Linux OS.\n6.6 • Reliability and Security 281",
+        "metadata": {
+          "page_id": "openstax-ics-web:p291",
+          "chapter_title": "Operating Systems",
+          "printed_page": 281,
+          "chunk_index": 7,
+          "section_title": "Reliability and Security",
+          "chunk_chars": 167,
+          "chapter": 6,
+          "section": "6.6",
+          "chars": 3667
+        },
+        "score": 0.34748928232050685,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-ics-web:p249:0 | Introduction_To_Computer_Science_-_WEB.pdf | page 249]\nFigure 6.1 Operating systems operate on many computers and devices, which means that when they need an update (due to an\nerror or virus), all those systems need the same fix. (credit: modification of “Windows Blue Screen on room full of computers,” by\nGrj23/Wikimedia.com, CC0)\nChapter Outline\n6.1 What Is an Operating System?\n6.2 Fundamental OS Concepts\n6.3 Processes and Concurrency\n6.4 Memory Management\n6.5 File Systems\n6.6 Reliability and Security\nIntroduction\nTechWorks is a start-up company th\n\n[openstax-ics-web:p265:2 | Introduction_To_Computer_Science_-_WEB.pdf | page 265]\ns (Figure 6.14).\n6.2 • Fundamental OS Concepts 255",
+    "context_ids": [
+      "openstax-ics-web:p249:0",
+      "openstax-ics-web:p265:2"
+    ],
+    "context_chars": 716,
+    "elapsed_ms": 0.26059999072458595,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  }
+]

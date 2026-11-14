@@ -1,0 +1,410 @@
+[
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "Theo mục 5.2, chương trình nào là phần mềm duy nhất có thể truy cập trực tiếp phần cứng, và chương trình khác (ví dụ in ấn) phải làm gì để thao tác phần cứng?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-ics-web",
+        "page": 214,
+        "evidence": "Any other program that needs to access the hardware, such as printing something, must talk to the\nOS, and the OS achieves the requested task on behalf of the program.",
+        "note": "verbatim-window-from-chunk"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-ics-web:p219:1",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 219,
+        "text": "e the usual rank that starts from 0. Therefore, the decimal\nequivalent of 11.111 = 21 + 20 + 2–1 + 2–2 + 2–3 = 2 + 1 + 0.5 + 0.25 + 0.125 = 3.875.\nFigure 5.14 Floating point uses the same base 2, but after the decimal point the exponent is negative. (attribution: Copyright Rice\nUniversity, OpenStax, under CC BY NC-SA 4.0 license)\nLINK TO LEARNING\nThe best way to get a clear view of how numbers are translated to binary so that computers can deal with\nthem is to see the process in action. Visit th",
+        "metadata": {
+          "chapter": 5,
+          "printed_page": 209,
+          "section": "5.3",
+          "chars": 3193,
+          "chunk_index": 1,
+          "page_id": "openstax-ics-web:p219",
+          "chapter_title": "Computer Systems Organization",
+          "section_title": "Machine-Level Information Representation",
+          "chunk_chars": 500
+        },
+        "score": 0.39304065264704374,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p212:0",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 212,
+        "text": "then we need six compilers as shown in Table 5.1.\nCompiler# Input to the Compiler Output from the Compiler\n1 HLL 1 ISA 1\n2 HLL 2 ISA 2\n3 HLL 3 ISA 1\n4 HLL 1 ISA 2\n5 HLL 2 ISA 1\n6 HLL 3 ISA 2\nTable 5.1 Compilers and Their I/O\nAs we saw earlier, the output of the compiler is the input to the assembler so we need assemblers for each ISA\nin existence to generate a machine language file (e.g., .exe file) that the processor can execute.\nProcessor Abstractions\nAs we cross the layer of ISA in Figure 5.5",
+        "metadata": {
+          "chars": 2625,
+          "chapter": 5,
+          "section_title": "Computer Levels of Abstraction",
+          "chunk_index": 0,
+          "printed_page": 202,
+          "chapter_title": "Computer Systems Organization",
+          "chunk_chars": 500,
+          "section": "5.2",
+          "page_id": "openstax-ics-web:p212"
+        },
+        "score": 0.3278627189692887,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p209:5",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 209,
+        "text": "uter language such as C/C++ or Python. The program tells the computer what to do, but in a formal way\nrather than a freeform way as an algorithm. At that point, we move to another level of abstraction.\nFigure 5.6 The resulting program is consumable by a computer during and after testing. (credit: “Programmer Flat Set” by\nMacrovector_official/FreePik, CC BY 2.0)\n5.2 • Computer Levels of Abstraction 199",
+        "metadata": {
+          "chapter_title": "Computer Systems Organization",
+          "section_title": "Computer Levels of Abstraction",
+          "chapter": 5,
+          "printed_page": 199,
+          "chunk_chars": 404,
+          "chunk_index": 5,
+          "page_id": "openstax-ics-web:p209",
+          "chars": 2904,
+          "section": "5.2"
+        },
+        "score": 0.22888143474573291,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-ics-web:p219:1 | Introduction_To_Computer_Science_-_WEB.pdf | page 219]\ne the usual rank that starts from 0. Therefore, the decimal\nequivalent of 11.111 = 21 + 20 + 2–1 + 2–2 + 2–3 = 2 + 1 + 0.5 + 0.25 + 0.125 = 3.875.\nFigure 5.14 Floating point uses the same base 2, but after the decimal point the exponent is negative. (attribution: Copyright Rice\nUniversity, OpenStax, under CC BY NC-SA 4.0 license)\nLINK TO LEARNING\nThe best way to get a clear view of how numbers are translated to binary so that computers can deal with\nthem is to see the process in action. Visit th",
+    "context_ids": [
+      "openstax-ics-web:p219:1"
+    ],
+    "context_chars": 582,
+    "elapsed_ms": 0.7430999976349995,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Trong chương 5, điểm khác biệt quan trọng giữa cache memory và DRAM liên quan đến lập trình viên là gì?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-ics-web",
+        "page": 232,
+        "evidence": "One important distinction between the cache memory and the DRAM is that the former is programmer-\ntransparent (i.",
+        "note": "verbatim-window-from-chunk"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-ics-web:p232:3",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 232,
+        "text": "), but the latter is not. Your laptop has 32GB of\nRAM, which is the size of the DRAM, but you may not know how much cache your processor has. However, if\nyou know how the cache works, you can write more efficient programs as we learn when we talk about locality.\nIn Figure 5.23, SRAM is more commonly referred to as cache memory, which is the memory that allows for\nhigh-speed retrieval of data. Let us see how the cache and the DRAM memory work together. From now on,\nwhenever we say cache we mean t",
+        "metadata": {
+          "chapter_title": "Computer Systems Organization",
+          "chunk_chars": 500,
+          "chars": 3214,
+          "section_title": "Memory Hierarchy",
+          "chunk_index": 3,
+          "section": "5.5",
+          "printed_page": 222,
+          "page_id": "openstax-ics-web:p232",
+          "chapter": 5
+        },
+        "score": 0.4841908702465114,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p232:4",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 232,
+        "text": "he SRAM, and whenever we say memory, we mean the DRAM.\nSuppose the processor executes a program that accesses array A consecutively. The processor starts with A[0]\nand asks the cache memory whether it has A[0]. Initially the cache is empty, so it does not have the needed\ndata which is called a cache miss. The cache then gets the data from the memory. But instead of just getting\nA[0], it gets A[0], A[1], A[2], ..., A[x]. The number of extra elements the cache brings depends on the design of\nthe c",
+        "metadata": {
+          "chapter_title": "Computer Systems Organization",
+          "chunk_chars": 500,
+          "section": "5.5",
+          "chunk_index": 4,
+          "chars": 3214,
+          "section_title": "Memory Hierarchy",
+          "chapter": 5,
+          "page_id": "openstax-ics-web:p232",
+          "printed_page": 222
+        },
+        "score": 0.3940063689964423,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p232:2",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 232,
+        "text": " the processor from one side and to the DRAM off-chip from the\nother side, as shown in Figure 5.23. The DRAM is in the range of 8–64GB, while the SRAM starts from the KB\nrange to a few MBs.\nFigure 5.23 SRAM was introduced to overcome the slow speed of DRAM. (attribution: Copyright Rice University, OpenStax, under CC\nBY NC-SA 4.0 license)\nOne important distinction between the cache memory and the DRAM is that the former is programmer-\ntransparent (i.e., its use cannot be managed by the programmer",
+        "metadata": {
+          "page_id": "openstax-ics-web:p232",
+          "chapter": 5,
+          "section_title": "Memory Hierarchy",
+          "chunk_index": 2,
+          "section": "5.5",
+          "chunk_chars": 500,
+          "printed_page": 222,
+          "chars": 3214,
+          "chapter_title": "Computer Systems Organization"
+        },
+        "score": 0.35788318600267427,
+        "strategy": "tfidf",
+        "hit": true
+      }
+    ],
+    "context": "[openstax-ics-web:p232:3 | Introduction_To_Computer_Science_-_WEB.pdf | page 232]\n), but the latter is not. Your laptop has 32GB of\nRAM, which is the size of the DRAM, but you may not know how much cache your processor has. However, if\nyou know how the cache works, you can write more efficient programs as we learn when we talk about locality.\nIn Figure 5.23, SRAM is more commonly referred to as cache memory, which is the memory that allows for\nhigh-speed retrieval of data. Let us see how the cache and the DRAM memory work together. From now on,\nwhenever we say cache we mean t",
+    "context_ids": [
+      "openstax-ics-web:p232:3"
+    ],
+    "context_chars": 582,
+    "elapsed_ms": 0.5567000043811277,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Nếu một process không hoàn thành công việc trước khi hết time slice, CPU xử lý nó như thế nào?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-ics-web",
+        "page": 278,
+        "evidence": "If the time slice ends and the process did",
+        "note": "verbatim-window-from-chunk"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-ics-web:p278:1",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 278,
+        "text": "he kernel mode to perform an action. The system call interface prevents these processes from overlapping\nor colliding. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nTime slicing provides a time frame for each process to run in a preemptive multitasking CPU such that each\nprocess runs every single time slice. If the process finishes the job before the time slice, it releases the CPU\nand does not need to be swapped out. If the time slice ends and the process did",
+        "metadata": {
+          "page_id": "openstax-ics-web:p278",
+          "section_title": "Memory Management",
+          "chunk_index": 1,
+          "printed_page": 268,
+          "section": "6.4",
+          "chunk_chars": 500,
+          "chapter": 6,
+          "chapter_title": "Operating Systems",
+          "chars": 2816
+        },
+        "score": 0.5973583433582798,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-ics-web:p278:2",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 278,
+        "text": " not finish the job, the CPU\nshifts it out to the end of the processes queue. For example, assume we have three processes P1 with\nexecution time 3 ms, P2 with execution time 4 ms, and P3 with execution time 2 ms, and a time slice of 2 ms.\nFigure 6.26 illustrates how the CPU manages the processing using time slice and indicates in which time slice\neach process completes execution.\nFigure 6.26 The three processes P1, P2, and P3 (blue) will work as scheduled based on the time slice. The processes a",
+        "metadata": {
+          "chunk_chars": 500,
+          "chapter": 6,
+          "section": "6.4",
+          "printed_page": 268,
+          "chars": 2816,
+          "section_title": "Memory Management",
+          "page_id": "openstax-ics-web:p278",
+          "chapter_title": "Operating Systems",
+          "chunk_index": 2
+        },
+        "score": 0.5066417521583839,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p271:5",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 271,
+        "text": "multiple processes at\nthe same time using time slicing. A time slice is a short time frame that gets assigned to a process for CPU\nexecution. It corresponds to the time frame during which a process is allotted to run in preemptive\nmultitasking CPUs. In that case, a scheduler runs each process every single time slice. The preemptive\nmultitasking approach was not sufficient to improve the OS performance, so twenty years later, OSs still\nsupport multitasking using multiple threads. Figure 6.19 illu",
+        "metadata": {
+          "section": "6.3",
+          "page_id": "openstax-ics-web:p271",
+          "chars": 3079,
+          "section_title": "Processes and Concurrency",
+          "chapter": 6,
+          "printed_page": 261,
+          "chunk_chars": 500,
+          "chapter_title": "Operating Systems",
+          "chunk_index": 5
+        },
+        "score": 0.4240809966742632,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-ics-web:p278:1 | Introduction_To_Computer_Science_-_WEB.pdf | page 278]\nhe kernel mode to perform an action. The system call interface prevents these processes from overlapping\nor colliding. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nTime slicing provides a time frame for each process to run in a preemptive multitasking CPU such that each\nprocess runs every single time slice. If the process finishes the job before the time slice, it releases the CPU\nand does not need to be swapped out. If the time slice ends and the process did",
+    "context_ids": [
+      "openstax-ics-web:p278:1"
+    ],
+    "context_chars": 582,
+    "elapsed_ms": 0.49789999320637435,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "Giai đoạn nào trong pipeline viết kết quả phép tính trở lại đúng chỗ chỉ định bởi lệnh, và có tên gọi là gì?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-ics-web",
+        "page": 237,
+        "evidence": "After execution, it writes the result o",
+        "note": "verbatim-window-from-chunk"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-ics-web:p238:0",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 238,
+        "text": "If we take a snapshot of the pipeline during the execution of the program, we find different pipeline phases\nworking on different instructions. We call this type of parallelism temporal parallelism. The benefit is that this\nparallelism—or better performance—is done with no involvement from the programmer. The hardware is\ndoing it for you.\nWith more and more transistors available, designers move to executing several instructions at the same time,\nwhich means that several execution units are neede",
+        "metadata": {
+          "chapter_title": "Computer Systems Organization",
+          "chunk_index": 0,
+          "section_title": "Processor Architectures",
+          "section": "5.6",
+          "chars": 3822,
+          "page_id": "openstax-ics-web:p238",
+          "chapter": 5,
+          "printed_page": 228,
+          "chunk_chars": 500
+        },
+        "score": 0.3304288929041799,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-ics-web:p238:0 | Introduction_To_Computer_Science_-_WEB.pdf | page 238]\nIf we take a snapshot of the pipeline during the execution of the program, we find different pipeline phases\nworking on different instructions. We call this type of parallelism temporal parallelism. The benefit is that this\nparallelism—or better performance—is done with no involvement from the programmer. The hardware is\ndoing it for you.\nWith more and more transistors available, designers move to executing several instructions at the same time,\nwhich means that several execution units are neede",
+    "context_ids": [
+      "openstax-ics-web:p238:0"
+    ],
+    "context_chars": 582,
+    "elapsed_ms": 0.2317000034963712,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q21",
+    "split": "test",
+    "question": "Thành phần nào của OS chịu trách nhiệm áp dụng quy tắc truy cập, bảo vệ xác thực và phân quyền để đảm bảo an toàn?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-ics-web",
+        "page": 291,
+        "evidence": "One component of an OS must be in charge of enforcing access rules and safeguarding authentication and\nauthorization to provide a high level of security.",
+        "note": "verbatim-window-from-chunk"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-ics-web:p289:2",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 289,
+        "text": "e longevity of an OS\nRemember that we consider an OS to be reliable if it delivers service without errors or interruptions. In\naddition to reliability, an OS should provide a high level of protection, security, and stability. Here, we learn\nabout OS protection, security, recovery, and longevity.\nProtection\nThe general mechanism that is used throughout the OS for all resources that need to be protected, such as\nmemory, processes, files, devices, CPU time, and network bandwidth is called protectio",
+        "metadata": {
+          "chunk_chars": 500,
+          "chunk_index": 2,
+          "chapter_title": "Operating Systems",
+          "page_id": "openstax-ics-web:p289",
+          "section_title": "Reliability and Security",
+          "section": "6.6",
+          "chars": 2938,
+          "chapter": 6,
+          "printed_page": 279
+        },
+        "score": 0.3402151096188315,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p263:1",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 263,
+        "text": "an\nevolutionary trial and error process. Successful OS designs have had a variety of architectures, such as\nmonolithic, layered, cloud infrastructure and exokernels, microkernels, and virtual machine monitors. As the\ndesign of an OS—and even its role—are still evolving, it is simply impossible today to pick one correct way to\nstructure an OS. The choice of OS architecture depends on various factors, including the specific requirements,\ntrade-offs, and goals of the OS’s intended use.\nMonolithic O",
+        "metadata": {
+          "section_title": "Fundamental OS Concepts",
+          "section": "6.2",
+          "chars": 3314,
+          "chapter_title": "Operating Systems",
+          "chapter": 6,
+          "chunk_chars": 500,
+          "printed_page": 253,
+          "chunk_index": 1,
+          "page_id": "openstax-ics-web:p263"
+        },
+        "score": 0.3264299820316642,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-ics-web:p263:6",
+        "source_id": "openstax-ics-web",
+        "source": "Introduction_To_Computer_Science_-_WEB.pdf",
+        "page": 263,
+        "text": "SA 4.0 license)\nLayered OS Design\nOne alternative way to achieve monolithic OS design is the layered OS architecture, which consists of\nimplementing the OS as a set of layers where each layer exposes an enhanced “virtual machine” to the layer\nabove, as illustrated in Figure 6.12.\n6.2 • Fundamental OS Concepts 253",
+        "metadata": {
+          "chapter_title": "Operating Systems",
+          "chunk_index": 6,
+          "page_id": "openstax-ics-web:p263",
+          "printed_page": 253,
+          "chapter": 6,
+          "chars": 3314,
+          "section": "6.2",
+          "chunk_chars": 314,
+          "section_title": "Fundamental OS Concepts"
+        },
+        "score": 0.3256038610175252,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-ics-web:p289:2 | Introduction_To_Computer_Science_-_WEB.pdf | page 289]\ne longevity of an OS\nRemember that we consider an OS to be reliable if it delivers service without errors or interruptions. In\naddition to reliability, an OS should provide a high level of protection, security, and stability. Here, we learn\nabout OS protection, security, recovery, and longevity.\nProtection\nThe general mechanism that is used throughout the OS for all resources that need to be protected, such as\nmemory, processes, files, devices, CPU time, and network bandwidth is called protectio",
+    "context_ids": [
+      "openstax-ics-web:p289:2"
+    ],
+    "context_chars": 582,
+    "elapsed_ms": 0.4172999906586483,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {"query_id": "q17", "answer_grade": 2, "citation_support": [true],
+   "note": "p214:0 chứa đúng 'the only piece of software that can directly access the hardware' - answer khớp expected."},
+  {"query_id": "q18", "answer_grade": 0, "citation_support": [],
+   "note": "Abstrain câu có đáp án (cache vs DRAM, p232). False abstention - lỗi 2 cần trình bày cùng q04 dev (cùng cluster trang p229-233, evidence trượt top-5)."},
+  {"query_id": "q19", "answer_grade": 2, "citation_support": [true],
+   "note": "p278:1 chứa 'If the time slice ends and the process did' (chunk bị cắt OCR cuối dòng, gold cũng cùng đoạn). Answer đúng: preempt, nhường CPU."},
+  {"query_id": "q20", "answer_grade": 2, "citation_support": [true, true],
+   "note": "p237:2 = commit (viết kết quả về đúng chỗ lệnh chỉ định); p238:0 = temporal parallelism. Cả hai đều hỗ trợ."},
+  {"query_id": "q21", "answer_grade": 2, "citation_support": [true],
+   "note": "p291:0 chứa 'One component of an OS must be in charge of enforcing access rules and safeguarding authentication and authorization' - khớp expected (access enforcement mechanism)."},
+  {"query_id": "na3", "abstention_correct": true, "citation_support": []},
+  {"query_id": "na4", "abstention_correct": true, "citation_support": []}
+]
